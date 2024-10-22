@@ -1,0 +1,7 @@
+baseURL = 'https://www.visualnovelwiki.org/'
+languageCode = 'en-us'
+title = 'Visual Novel Wiki'
+theme = 'hugo-theme-relearn'
+
+[params]
+  themeVariant = 'zen-dark'
