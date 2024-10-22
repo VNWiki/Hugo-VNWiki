@@ -25,8 +25,8 @@ Feel free to join the [Discord](https://discord.gg/GaEa5Mm2Xr) to discuss & help
 
 ## Our friends & affiliates 
 
-![Fuwanovel](/images/fuwanovel_small.png)
-![Mangagamer](/images/mangagamer_small.png)
+![Fuwanovel](https://raw.githubusercontent.com/Saetron/visualnovelwiki/refs/heads/main/static/images/fuwanovel_small.png)
+![Mangagamer](https://raw.githubusercontent.com/Saetron/visualnovelwiki/refs/heads/main/static/images/mangagamer_small.png)
 
 Content is available under the Creative Commons Attribution-NoDerivs License, by visualnovelwiki
 
