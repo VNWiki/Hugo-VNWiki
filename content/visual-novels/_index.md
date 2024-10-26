@@ -1,5 +1,5 @@
 +++
-title = "All platforms"
+title = "Visual Novels"
 type = "chapter"
 +++
 

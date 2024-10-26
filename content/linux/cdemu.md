@@ -53,3 +53,10 @@ When that’s finished running, and you’ve pressed **y** to everything, you’
 > You can also refresh manually by clicking on the menu icon **☰** on the top right > More > View > Refresh.
 > You may need to run this everytime SteamOS updates, or whenever it disappears, because the Steam Deck has an **immutable OS**.
 
+## Usage
+
+* Mount a disc image: `cdemu load 0 ~/image.iso`
+* Unmount a disc image: `cdemu unload 0`
+
+More information on the [CDEmu ArchWiki page](https://wiki.archlinux.org/title/CDemu)
+

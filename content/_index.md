@@ -9,8 +9,7 @@ We're here to guide you through the exciting world of visual novels, ensuring yo
 
 Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your thoughts and help shape the future of this wiki.
 
-<!--- List doesnt exist yet --->
-<!--- {{% button href="/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}} --->
+{{% button href="/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
 
 > [!warning] Open Beta
 > As this is an Open Beta, you may encounter some bugs. Please report any issues in the #wiki-channel on our Discord.
