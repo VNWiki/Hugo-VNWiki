@@ -13,112 +13,177 @@ A brief overview **on what works** for a Visual Novel and its confirmed working 
 
 If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
 
-| Visual Novel | Windows | Mac | Linux | Steam Deck | Game engine | Wineprefix   | Wine version           | Notes                                                                                                                                         |
-|:--------------:|:---------:|:-----:|:-------:|:------------:|:-------------:|:--------------:|:------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Tsukihime    | ✅       | ✅   | ✅     | ✅          |             | vanilla(any) | any                    | abandonware;   can be played on a browser - https://tsukiweb.holofield.fr/   or offline, using the original exe - https://www.readtsukihi.me/ |
-| DRACU-RIOT!  | ✅       | ❓   | ✅     | ✅          | KiriKiri    | wmp10quartz  | Proton 7+              | Disable `Esync`                                                                                                                               |
-| Riddle Joker | ✅       | ❓   | ✅     | ✅          | KiriKiri    | wmp10quartz  | Lutris 7.2+  Proton 7+ | Disable `Esync` |
-| Kinkoi: Golden Loveriche | ✅       | ❓   | ✅     | ✅          | KiriKiri | vanilla(any) | Proton GE 7.43+ | Add “WINE_DO_NOT_CREATE_DXGI_DEVICE_MANAGER=1 %command%” OP/ED work out of the box | Meteor World Actor: Badge & Dagger | ✅       | ❓   | ✅     | ✅          | Artemis | vanilla |  Proton GE 8.6+ | Add "GST_PLUGIN_FEATURE_RANK=protonaudioconverterbin:NONE %command%" to be able to play the OP |
-| A Clockwork Ley-Line: Flowers Falling in the Morning Mist | ✅       | ❓   | ✅     | ✅          | | vanilla | Proton 7.0+ | Add “PROTON_USE_WINED3D=1 LANG="ja_JP.UTF-8"  %command%” on launch options on steam, if not, you will get stuck on a white screen when the OP start |
-| Kamidori Alchemy Meister | ✅       | ❓   | ✅     | ✅          | | wmp10quartz | Lutris 7.2+ Proton 7.0+ | JP Locale Enabled Runs a little laggy in wine8, but is smoother in lutris 7.2.2 . Will experiment more. | 
-| Neko Nights | ✅       | ❓   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7.0+ | JP Locale enabled |
-| Senren＊Banka | ✅       | ❓   | ✅     | ✅          | KiriKiri | Special: wmp11 | Lutris 5.13+ Proton GE 8.8+ | Disable Esync
-| True Remembrance | ✅       | ✅   | ✅     | ✅          | | N/A | N/A | has Native Mac/Linux version (2x version)
-| Majikoi! Love Me Seriously! | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Dies irae ~Amantes amentes~ | ✅       | ✅   | ✅     | ✅          | Malie | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Maitetsu Last Run! | ✅       | ❓   | ✅     | ❓          | KiriKiri | wmp11 | Proton GE 7.31+ | Switch Kirikiri advanced options to use “Layer” |
-| Tsukihime -A piece of blue glass moon- | ✅       | ✅   | ✅     | ✅          | Kirikiri | N/A | N/A | Run the switch version on Ryujinx to avoid sprite lag. |
-| Gnosia | ✅       | ❓   | ✅     | ❓          | | N/A | Proton GE 8-6 |
-| Forest | ✅       | ❓   | ✅     | ❓          | codeX RScript | liarsoftengine / special: mciqtz32 | Lutris 7.21+, Proton 7+ | Not yet tested, but liarsoftengine should work. |
-| Harmonia | ✅       | ✅   | ✅     | ✅          | Siglus Engine | lavfilters | Lutris 7.21+ Proton 7+ | |
-| G-Senjou no Maou - The Devil on G-String | ✅       | ✅   | ✅     | ✅          | Kirikiri | wmp10quartz | Lutris 7.21+ Proton 7+ | |
-| Utawarerumono: Prelude to the Fallen | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | 
-| Utawarerumono: Mask of Deception | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ |
-| Dōkyūsei: Bangin' Summer (remake) | ✅       | ✅   | ✅     | ✅          | | lavfilters | Proton GE 7.31+ | Graphical glitches on default wine |
-| Fureraba ~Friend to Lover~ | ✅       | ✅   | ✅     | ✅          | | lavfilters | Lutris 7.21+ Proton 7+ | HD renewal edition |
-| Utawarerumono: Mask of Truth | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Utawarerumono (2002, original) | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Saku Saku: Love Blooms with the Cherry Blossoms | ✅       | ✅   | ✅     | ✅          | | lavfilters / ffdshow | Proton GE 7.20+
-| Spirit Hunter: Death Mark | ✅       | ❌   | ❌    | ❌          | | ❌ | ❌ | borked for now, untested for Proton 8 (https://www.protondb.com/app/980830) |
-| Umineko - When They Cry | ✅       | ✅   | ✅     | ✅          | NScripter | vanilla (any) | Lutris 7.21+ Proton 7+ | w/ witch hunt translations. For HD sprite/PS3 version port, see Umineko Project (supported). The original japanese release might require deleting some fonts from the wineprefix as nscripter defaults to a font on its own and there are no options to select one |
-| Higurashi - When They Cry | ✅       | ✅   | ✅     | ✅          | NScripter | vanilla (any) | Lutris 7.21+ Proton 7+ | w/ witch hunt translations. The original japanese release might require deleting some fonts from the wineprefix as nscripter defaults to a font on its own and there are no options to select one. |
-| Spirit Hunter: NG | ✅       | ❌   | ⚠️    | ⚠️         | | N/A | Proton 7+ | movies don't play, but otherwise semi-playable. untested for Proton 8 (https://www.protondb.com/app/1100430) |
-| Your Turn To Die -Death Game By Majority- | ✅       | ❓   | ✅     | ✅          | | ❓ | ❓ | input lag on some linux devices, possible lag when loading an asset. Applicable to all rpg maker mv/mz games.  |
-| MUSICUS! | ✅       | ❓   | ✅     | ❓          | | ffdshow | Lutris 7.21+ Proton 7+ | not yet tested. movies if any? |
-| Clannad | ✅       | ✅   | ✅     | ✅          |  RealLive |  wmp10quartz | Lutris 7.21+ Proton 7+ | |
-| Majikoi A-1 | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | JP Locale enabled |
-| Majikoi A-2 | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | JP Locale enabled |
-| Majikoi A-3 | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | JP Locale enabled |
-| Majikoi A-4 | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | JP Locale enabled |
-| Majikoi S | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | JP Locale enabled |
-| Dead End Aegis Dead End Aegis Gaiden | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ |  |
-| YOU and ME and HER: A Love Story (totono) | ✅       | ✅   | ✅     | ✅          | N2System N4System(JAST) | lavfilters/ffdshow + xact | Lutris 7.21+ Proton 7+ | Install xact with lavfilters or ffdshow |
-| Katawa Shoujo | ✅       | ✅   | ✅     | ✅          | | N/A | N/A | has Native Mac/Linux version |
-| Baldr Sky | ✅       | ✅   | ✅     | ✅          | | lavfilters | Lutris 7.21+ Proton 7+ | Lutris 7.21+ Proton 7+ | Opening video & audio desync fixed by setting FPS limiter to 30 or `gamescope --framerate 30 BaldrSky.exe` |
-| Sabbath of the Witch | ✅       | ✅   | ✅     | ✅          | kirikiri | special: wmp11 | Lutris 7.21+ Proton 7+ | Disable DXVK Press ALT for Advanced Settings > Movie Rendering > Layer |
-| Cyanotype Daydream | ✅       | ✅   | ✅     | ✅          | |wmp10quartz | Lutris 7.21+ Proton 7+ | |
-| White Album 2 Introductory Chapter & Closing Chapter | ✅       | ✅   | ✅     | ✅          | |wmp10quartz / special: wmp11quartz | Lutris 7.21+ Proton 7+ | requires special install. d3d9 set override n,b |
-| Fruit of Grisaia | ✅       | ✅   | ⚠️     | ⚠️          | CatSystem2 | wmp10quartz | Lutris 7.21+ Proton 7+ | Movies flicker, but otherwise fully playable. |
-| Labyrinth of Grisaia | ✅       | ✅   | ⚠️     | ⚠️          | CatSystem2 | wmp10quartz | Lutris 7.21+ Proton 7+ | Movies flicker, but otherwise fully playable. |
-| Eden of Grisaia | ✅       | ✅   | ⚠️     | ⚠️          | CatSystem2 | wmp10quartz | Lutris 7.21+ Proton 7+ | Movies flicker, but otherwise fully playable. |
-| Persona 5 Royal | ✅       | ❌   | ✅     | ✅          | | any | Lutris 7.21+ Proton 7+ | Steam Deck: 1920x1080 resolution override in Steam Game Properties, 40 fps lock. |
-| Yosuga no Sora | ✅       | ✅   | ✅     | ✅          | | any | Lutris 7.21+ Proton 7+ | JP Locale enabled |
-| Saya no Uta (original) | ✅       | ✅   | ✅     | ✅          | nps | lavfilters | Lutris 7.21+ Proton 7+ | |
-| Saya no Uta (remaster) | ✅       | ✅   | ✅     | ✅          | N4System | xact | Lutris 7.21+ Proton 7+ | |
-| YU-NO PC-95 (w/ Voice Mod & BGM Mod) | ✅       | ✅   | ✅     | ✅          | | yunoengine | Lutris 7.21+ Proton 7+ | requires special install. |
-| Corpse Party (2021) | ✅       | ✅   | ✅     | ✅          |  | any | Lutris 7.21+ Proton 7+ | |
-| eden* They were only two, on the planet. | ✅       | ✅   | ✅     | ✅          |  | lavfilters | Lutris 7.21+ Proton 7+ | |
-| Evenicle 1 | ✅       | ✅   | ✅     | ✅          | | any | Lutris 7.21+ Proton 7+ | MUST HAVE game version 1.04: turn on full screen mode, and enable compatibility mode in in-game config. |
-| Evenicle 2 | ✅       | ✅   | ✅     | ✅          | |any | Lutris 7.21+ Proton 7+ | |
-| ef - the first tale. | ✅       | ✅   | ✅     | ✅          | | lavfilters | Lutris 7.21+ Proton 7+ | |
-| ef - the latter tale. | ✅       | ✅   | ✅     | ✅          | | lavfilters | Lutris 7.21+ Proton 7+ | |
-| Never7 -the end of infinity- | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | any | love2D engine required (has native windows/linux ver) |
-| Ever17 -the out of infinity- HIMMEL Edition | ✅       | ⚠️   | ⚠️     | ⚠️          | | vanilla / lavfilters | any | Requires special install.Set the virtual resolution to 800x600 to correctly crop the videos. |
-| Remember11 -the age of infinity- GESTALT edition | ✅       | ✅   | ✅     | ✅          | | lavfilters | any | |
-| StarTrain | ✅       | ✅   | ⚠️     | ✅          |  Kirikiri | wmp10quartz | Lutris 7.21+ | Fullscreen does not work, but fixable with Gamescope. Disable DXVK |
-| Steins;Gate | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | w/ COZ patch |
-| Steins;Gate 0 | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | w/ COZ patch |
-| Tsui no Stella | ✅       | ✅   | ✅     | ✅          | Siglus Engine | wmp10quartz / wmp11 | Lutris 7.21+ | See guide to choose which prefix needed. Disable DXVK. |
-| Root Double | ✅       | ❓   | ⚠️     | ⚠️          | | vanilla (any) | any | Font rendering is low quality on Unix systems |
-| Deus Machina Demonbane | ✅       | ✅   | ✅     | ✅          | N2System | demonbaneengine | Lutris 7.21+ Proton 7+ | |
-| Subarashiki Hibi ~Furenzoku Sonzai~ | ✅       | ✅   | ✅     | ✅          | BGI | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Baldr Heart + EXE | ✅       | ✅   | ✅     | ⚠️         | NeXAS | wmp10quartz | Lutris 7.21+ Proton 7+ | Severe frame drops when high enemy count in the Steam Deck on later stages. |
-| Full Metal Daemon: Muramasa | ✅       | ✅   | ✅     | ✅          | N2System/N4System (JAST) | muramasaengine | Lutris 7.21+ Proton 7+ |
-| AIR | ✅       | ✅   | ✅     | ✅          | RealLive | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Fate/stay night | ✅       | ✅   | ✅     | ✅          | Kirikiri | lavfilters / wmp10quartz | Lutris 6.21+ Proton 7+ | |
-| Gore Screaming Show | ✅       | ❓   | ✅     | ✅          | | lavfilters | Lutris 7.21+ Proton 7+ | |
-| Hoshi Ori Yume Mirai | ✅       | ✅   | ✅     | ✅          | Siglus Engine | vanilla (any) | lutris-GE-Proton-7-32+ | |
-| Ima Sugu Onii-chan ni Imouto da tte Iitai! | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Kanon | ✅       | ✅   | ✅     | ✅          | RealLive | vanilla (any) | Lutris 7.21+ Proton 7+ | |
-| Muv-Luv | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | lutris-GE-Proton-7-21+ | |
-| Muv-Luv Alternative | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | any | |
-| Kana ~Imouto~ | ✅       | ❓   | ✅     | ✅          | | wmp10quartz | Lutris 7.2+ | |
-| Otome wa Boku ni Koishiteru | ✅       | ❓   | ✅     | ✅          | | wmp10quartz | Lutris 7.2+ | |
-| Sakura no Toki | ✅       | ❓   | ✅     | ✅          | Artemis | artemisengine | Lutris 7.2+ | Use Gamescope/Game mode to avoid video flickering |
-| Sakura no Uta | ✅       | ❓   | ✅     | ✅          | BGI | lavfilters / wmp10quartz | Lutris 7.2+ Proton GE 8-13+ | JP Locale Enable Spanish translation works but some characters like “ñ” or letters with accents don't appear
-| Albatross Koukairoku | ✅       | ✅   | ✅     | ✅          | codeX RScript  | liarsoftengine / special: mciqtz32 | Lutris 7.2+ | |
-| Gahkthun of the Golden Lightning -What a Radiant Brave- | ✅       | ✅   | ✅     | ✅          | codeX RScript  | liarsoftengine / special: mciqtz32 | Lutris 7.2+ | |
-| Ayakashibito | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.2+ | uses modified aya.bat script to run game |
-| Umineko Project | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | any | Has Native Linux version.
-| Kara no Shoujo | ✅       | ✅   | ✅     | ✅          | InnocentGrey engine Kirikiri (mangagamer) | vanilla (any) | any | |
-| Kara no Shoujo (HD) | ✅       | ✅   | ✅     | ✅          | InnocentGrey engine | wmp11quartz | Lutris 7.2+ Proton 7+ | Make sure patch is up to date. d2d1 override set to n,b or in winecfg |
-| Kara no Shoujo 2 | ✅       | ✅   | ✅     | ✅          | InnocentGrey engine Unity (mangagamer) | N/A | N/A | Has native Mac & Linux version. |
-| Tokyo Babel | ✅       | ✅   | ✅     | ✅          | | vanilla (any) | Lutris 7.2+ | |
-| Saihate no Ima | ✅       | ✅   | ✅     | ✅          | | wmp10quartz / liarsoftengine | Lutris 7.2+ | disable DXVK. needs font in the prefix to avoid startup crash. sometimes the op video crashes if left to play to the end click to skip before it ends naturally |
-| Kikokugai The Cyber Slayer | ✅       | ❓  | ⚠️     | ❓          | nps N2System (remake) | vanilla | Proton GE 7.20+ | Broken formatting in the textbox on linux. Still in a readable state. |
-| Hatsukoi 1/1 | ✅       | ❓  | ✅     | ✅          | Siglus Engine | vanilla | Proton GE 7.32 | |
-| Sakuranomori Dreamers | ✅       | ❓  | ✅     | ✅          | | vanilla | Proton GE 7.43 | |
-| Shin Koihime † Musou ~Otome Ryouran ☆ Sangokushi Engi~ | ✅       |   | ✅     | ✅          | | lavfilters | Proton GE 7.16 | Interface is in Japanese |
-| Ore-tachi ni Tsubasa wa Nai | ✅       | ❓  | ✅     | ❓          | Lucifen | wmp11 + quartz_dx | Lutris 7.2 | Disable DKVX use special codecs: `sh codec.sh wmp11 quartz-dx` |
-| Hello;World | ✅       | ❓  | ✅     | ❓          | nps | wmp11 + quartz_dx | Lutris 7.2 | Disable DKVX use special codecs: `sh codec.sh wmp11 quartz-dx` |
-| Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii Desu ka? | ✅       | ❓  | ✅     | ❓          | Shiina Rio | vanilla | Lutris 7.2 | |
-| Kishin Houkou Demonbane  | ✅       | ❓  | ✅     | ✅          | N4System | muramasaengine + xact | Lutris 7.2 | English fantl has wordwrapping issues in linux. Japanese works fine. |
-| Sore wa Maichiru Sakura no You ni -Re:BIRTH- | ✅       | ❓  | ✅     | ✅          | Artemis | vanilla wine-ge/proton-ge | Lutris GE-proton 8.14 | |
-| GINKA | ✅       | ❓  | ✅     | ✅          | Kirikiri | wmp11quartz |  Lutris 7.2 | |
-| Rewrite | ✅       | ❓  | ✅     | ✅          | Siglus engine | wmp10quartz(Japanese version) | Lutris 7.2 | Lutris 7.2 	English version should work by default in Steam. Japanese version requires wmp10quartz (wmp11quartz does not work) install quartz manually as the script does not work here for 32bit |
-| Clover Day's Plus | ✅       | ❓  | ✅     | ✅          | Kirikiri/Unity | kirikiri → wmp11quartz_dx Unity → wine-ge/proton-ge | kirikiri → Lutris 7.2 Unity → wine-ge 8.22 | If running the new Unity version in lutris make sure to enable DKVX. Otherwise disable. |
-| Sousaku Kanojo no Ren'ai Koushiki | ✅       | ❓  | ✅     | ✅          | Kirikiri | wmp11quartz | Lutris 7.2 | Disable DKVX |
-| Tenshi no Nichou Kenjuu -Angelos Armas- | ✅       | ❓  | ✅     | ✅          | nps | wmp11 + quartz_dx | Lutris 7.2 | Disable DKVX use special codecs: `sh codec.sh wmp11 quartz-dx` Seems to crash on 32 bit prefixes and some wine versions |
-| Moshimo Ashita ga Hare Naraba |  ✅       | ❓  | ✅     | ✅          | | wmp11 + quartz_dx | Lutris 7.2 | Disable DKVX use special codecs: `sh codec.sh wmp11 quartz-dx` | 
-| Geminism |  ✅       | ❓  | ✅     | ✅          | Unity | vanilla with wine-ge | Lutris-ge-proton 8.23 | |
+| Visual Novel                                              | Windows | Mac | Linux | Steam Deck | Game engine           | Wineprefix      | Wine version                | Notes                   |
+|-----------------------------------------------------------|---------|-----|-------|------------|-----------------------|-----------------|-----------------------------|-------------------------|
+| Tsukihime                                                 | ✅      | ✅  | ✅    | ✅         |                       | any             | any                         |                         |
+| DRACU-RIOT!                                               | ✅      | ❓  | ✅    | ✅         | KiriKiri              | wmp10quartz     | Proton 7+                   | Note 1                  |
+| Riddle Joker                                              | ✅      | ❓  | ✅    | ✅         | KiriKiri              | wmp10quartz     | Lutris 7.2+/Proton 7+       | Note 1                  |
+| Kinkoi: Golden Loveriche                                  | ✅      | ❓  | ✅    | ✅         | KiriKiri              | any             | Proton GE 7.43+             | Note 2                  |
+| Meteor World Actor: Badge & Dagger                        | ✅      | ❓  | ✅    | ✅         | Artemis               | any             | Proton GE 8.6+              | Note 3                  |
+| A Clockwork Ley-Line: Flowers Falling in the Morning Mist | ✅      | ❓  | ✅    | ✅         |                       | vanilla         | Proton 7.0+                 | Note 4                  |
+| Kamidori Alchemy Meister                                  | ✅      | ❓  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.2+/Proton 7.0+     | Note 5, 6               |
+| Neko Nights                                               | ✅      | ❓  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7.0+    | Note 5                  |
+| Senren＊Banka                                              | ✅      | ❓  | ✅    | ✅         | KiriKiri              | wmp11           | Lutris 5.13+/Proton GE 8.8+ | Note 1, 7              |
+| True Remembrance                                          | ✅      | ✅  | ✅    | ✅         |                       | N/A             | N/A                         |                         |
+| Majikoi! Love Me Seriously!                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| Dies irae \~Amantes amentes\~                             | ✅      | ✅  | ✅    | ✅         | Malie                 | any             | Lutris 7.21+/Proton 7+      |                         |
+| Maitetsu Last Run!                                        | ✅      | ❓  | ✅    | ❓         | KiriKiri              | wmp11           | Proton GE 7.31+             | Note 8                  |
+| Tsukihime -A piece of blue glass moon-                    | ✅      | ✅  | ✅    | ✅         | Kirikiri              | N/A             | N/A                         |                         |
+| Gnosia                                                    | ✅      | ❓  | ✅    | ❓         |                       | N/A             | Proton GE 8-6               |                         |
+| Forest                                                    | ✅      | ❓  | ✅    | ❓         | codeX RScript         | mciqtz32        | Lutris 7.21+/Proton 7+      | Note 9                  |
+| Harmonia                                                  | ✅      | ✅  | ✅    | ✅         | Siglus Engine         | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| G-Senjou no Maou - The Devil on G-String                  | ✅      | ✅  | ✅    | ✅         | Kirikiri              | wmp10quartz     | Lutris 7.21+/Proton 7+      |                         |
+| Utawarerumono: Prelude to the Fallen                      | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| Utawarerumono: Mask of Deception                          | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| Dōkyūsei: Bangin' Summer (remake)                         | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Proton GE 7.31+             | Note 10                 |
+| Fureraba \~Friend to Lover\~ (HD renewal edition)         | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| Utawarerumono: Mask of Truth                              | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| Utawarerumono (2002, original)                            | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| Saku Saku: Love Blooms with the Cherry Blossoms           | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Proton GE 7.20+             | Note 11                 |
+| Spirit Hunter: Death Mark                                 | ✅      | ❌  | ❌    | ❌         |                       | ❌              | ❌                          |                         |
+| Umineko - When They Cry                                   | ✅      | ✅  | ✅    | ✅         | NScripter             | any             | Lutris 7.21+/Proton 7+      | Note 12                 |
+| Higurashi - When They Cry                                 | ✅      | ✅  | ✅    | ✅         | NScripter             | any             | Lutris 7.21+/Proton 7+      | Note 12                 |
+| Spirit Hunter: NG                                         | ✅      | ❌  | ⚠️    | ⚠️         |                       | N/A             | Proton 7+                   | Note 13                 |
+| Your Turn To Die -Death Game By Majority-                 | ✅      | ❓  | ✅    | ✅         |                       | ❓              | ❓                          | Note 14                 |
+| MUSICUS!                                                  | ✅      | ❓  | ✅    | ❓         |                       | ffdshow         | Lutris 7.21+/Proton 7+      | Note 15                 |
+| Clannad                                                   | ✅      | ✅  | ✅    | ✅         | RealLive              | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Majikoi A-1                                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Majikoi A-2                                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Majikoi A-3                                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Majikoi A-4                                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Majikoi S                                                 | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Dead End Aegis Dead End Aegis Gaiden                      | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| YOU and ME and HER: A Love Story                          | ✅      | ✅  | ✅    | ✅         | N2System/N4System     | lavfilters      | Lutris 7.21+/Proton 7+      | Note 16                 |
+| Katawa Shoujo                                             | ✅      | ✅  | ✅    | ✅         |                       | N/A             | N/A                         |                         |
+| Baldr Sky                                                 | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      | Note 17                 |
+| Sabbath of the Witch                                      | ✅      | ✅  | ✅    | ✅         | Kirikiri              | wmp11           | Lutris 7.21+/Proton 7+      | Note 7, 8, 18           |
+| Cyanotype Daydream                                        | ✅      | ✅  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.21+/Proton 7+      |                         |
+| White Album 2 Introductory Chapter & Closing Chapter      | ✅      | ✅  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.21+/Proton 7+      | Notes 19, 20, 21        |
+| Fruit of Grisaia                                          | ✅      | ✅  | ⚠️    | ⚠️         | CatSystem2            | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 22                 |
+| Labyrinth of Grisaia                                      | ✅      | ✅  | ⚠️    | ⚠️         | CatSystem2            | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 22                 |
+| Eden of Grisaia                                           | ✅      | ✅  | ⚠️    | ⚠️         | CatSystem2            | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 22                 |
+| Persona 5 Royal                                           | ✅      | ❌  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 23                 |
+| Yosuga no Sora                                            | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 5                  |
+| Saya no Uta (original)                                    | ✅      | ✅  | ✅    | ✅         | nps                   | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| Saya no Uta (remaster)                                    | ✅      | ✅  | ✅    | ✅         | N4System              | xact            | Lutris 7.21+/Proton 7+      |                         |
+| YU-NO                                                     | ✅      | ✅  | ✅    | ✅         |                       | yunoengine      | Lutris 7.21+/Proton 7+      | Note 20                 |
+| Corpse Party (2021)                                       | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| eden* They were only two, on the planet.                  | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| Evenicle 1                                                | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 24                 |
+| Evenicle 2                                                | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
+| ef - the first tale.                                      | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| ef - the latter tale.                                     | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| Never7 -the end of infinity-                              | ✅      | ✅  | ✅    | ✅         |                       | any             | any                         | Note 25                 |
+| Ever17 -the out of infinity- HIMMEL Edition               | ✅      | ⚠️  | ⚠️    | ⚠️         |                       | lavfilters      | any                         | Notes 20, 26            |
+| Remember11 -the age of infinity- GESTALT edition          | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | any                         |                         |
+| StarTrain                                                 | ✅      | ✅  | ⚠️    | ✅         | Kirikiri              | wmp10quartz     | Lutris 7.21+                | Notes 18, 27            |
+| Steins;Gate                                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 28                 |
+| Steins;Gate 0                                             | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      | Note 28                 |
+| Tsui no Stella                                            | ✅      | ✅  | ✅    | ✅         | Siglus Engine         | wmp10quartz     | Lutris 7.21+                | Notes 18, 29, 30        |
+| Root Double                                               | ✅      | ❓  | ⚠️    | ⚠️         |                       | any             | any                         | Note 31                 |
+| Deus Machina Demonbane                                    | ✅      | ✅  | ✅    | ✅         | N2System              | demonbaneengine | Lutris 7.21+/Proton 7+      |                         |
+| Subarashiki Hibi \~Furenzoku Sonzai\~                     | ✅      | ✅  | ✅    | ✅         | BGI                   | any             | Lutris 7.21+/Proton 7+      |                         |
+| Baldr Heart + EXE                                         | ✅      | ✅  | ✅    | ⚠️         | NeXAS                 | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 32                 |
+| Full Metal Daemon: Muramasa                               | ✅      | ✅  | ✅    | ✅         | N2System/N4System     | muramasaengine  | Lutris 7.21+/Proton 7+      |                         |
+| AIR                                                       | ✅      | ✅  | ✅    | ✅         | RealLive              | any             | Lutris 7.21+/Proton 7+      |                         |
+| Fate/stay night                                           | ✅      | ✅  | ✅    | ✅         | Kirikiri              | lavfilters      | Lutris 6.21+/Proton 7+      | Note 33                 |
+| Gore Screaming Show                                       | ✅      | ❓  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
+| Hoshi Ori Yume Mirai                                      | ✅      | ✅  | ✅    | ✅         | Siglus Engine         | any             | Lutris GE Proton 7.32+      |                         |
+| Kanon                                                     | ✅      | ✅  | ✅    | ✅         | RealLive              | any             | Lutris 7.21+/Proton 7+      |                         |
+| Muv-Luv                                                   | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris GE Proton 7.21+      |                         |
+| Muv-Luv Alternative                                       | ✅      | ✅  | ✅    | ✅         |                       | any             | any                         |                         |
+| Kana \~Imouto\~                                           | ✅      | ❓  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.2+                 |                         |
+| Otome wa Boku ni Koishiteru                               | ✅      | ❓  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.2+                 |                         |
+| Sakura no Toki                                            | ✅      | ❓  | ✅    | ✅         | Artemis               | artemisengine   | Lutris 7.2+                 | Note 34                 |
+| Sakura no Uta                                             | ✅      | ❓  | ✅    | ✅         | BGI                   | lavfilters      | Lutris 7.2+/Proton GE 8-13+ | Notes 5, 33, 35         |
+| Albatross Koukairoku                                      | ✅      | ✅  | ✅    | ✅         | codeX RScript         | liarsoftengine  | Lutris 7.2+                 | Note 9                  |
+| Gahkthun of the Golden Lightning -What a Radiant Brave-   | ✅      | ✅  | ✅    | ✅         | codeX RScript         | liarsoftengine  | Lutris 7.2+                 | Note 9                  |
+| Ayakashibito                                              | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.2+                 | Note 36                 |
+| Kara no Shoujo                                            | ✅      | ✅  | ✅    | ✅         | InnocentGrey/Kirikiri | any             | any                         |                         |
+| Kara no Shoujo (HD)                                       | ✅      | ✅  | ✅    | ✅         | InnocentGrey          | wmp11quartz     | Lutris 7.2+ Proton 7+       | Notes 37, 38            |
+| Kara no Shoujo 2                                          | ✅      | ✅  | ✅    | ✅         | InnocentGrey/Unity    | N/A             | N/A                         |                         |
+| Tokyo Babel                                               | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.2+                 |                         |
+| Saihate no Ima                                            | ✅      | ✅  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.2+                 | Notes 18, 39, 40, 41    |
+| Kikokugai The Cyber Slayer                                | ✅      | ❓  | ⚠️    | ❓         | nps/N2System          | any             | Proton GE 7.20+             | Note 42                 |
+| Hatsukoi 1/1                                              | ✅      | ❓  | ✅    | ✅         | Siglus Engine         | any             | Proton GE 7.32              |                         |
+| Sakuranomori Dreamers                                     | ✅      | ❓  | ✅    | ✅         |                       | any             | Proton GE 7.43              |                         |
+| Shin Koihime † Musou \~Otome Ryouran ☆ Sangokushi Engi\~  | ✅      | ❓  | ✅    | ✅         |                       | lavfilters      | Proton GE 7.16              | Note 43                 |
+| Ore-tachi ni Tsubasa wa Nai                               | ✅      | ❓  | ✅    | ❓         | Lucifen               | wmp11           | Lutris 7.2                  | Notes 18, 44            |
+| Hello;World                                               | ✅      | ❓  | ✅    | ❓         | nps                   | wmp11           | Lutris 7.2                  | Notes 18, 44            |
+| NUKITASHI                                                 | ✅      | ❓  | ✅    | ❓         | Shiina Rio            | any             | Lutris 7.2                  |                         |
+| Kishin Houkou Demonbane                                   | ✅      | ❓  | ✅    | ✅         | N4System              | muramasaengine  | Lutris 7.2                  | Notes 45, 46            |
+| Sore wa Maichiru Sakura no You ni -Re:BIRTH-              | ✅      | ❓  | ✅    | ✅         | Artemis               | any             | Lutris GE Proton 8.14       |                         |
+| GINKA                                                     | ✅      | ❓  | ✅    | ✅         | Kirikiri              | wmp11quartz     | Lutris 7.2                  |                         |
+| Rewrite                                                   | ✅      | ❓  | ✅    | ✅         | Siglus engine         | wmp10quartz     | Lutris 7.2                  | Notes 47, 48, 49        |
+| Clover Day's Plus                                         | ✅      | ❓  | ✅    | ✅         | Kirikiri/Unity        | wmp11quartz_dx  | Lutris 7.2                  | Notes 50, 51            |
+| Sousaku Kanojo no Ren'ai Koushiki                         | ✅      | ❓  | ✅    | ✅         | Kirikiri              | wmp11quartz     | Lutris 7.2                  | Note 18                 |
+| Tenshi no Nichou Kenjuu -Angelos Armas-                   | ✅      | ❓  | ✅    | ✅         | nps                   | wmp11           | Lutris 7.2                  | Notes 18, 44, 52        |
+| Moshimo Ashita ga Hare Naraba                             | ✅      | ❓  | ✅    | ✅         |                       | wmp11           | Lutris 7.2                  | Notes 18, 44            |
+| Geminism                                                  | ✅      | ❓  | ✅    | ✅         | Unity                 | any             | Lutris GE Proton 8.23       |                         |
+
+## Notes
+
+1. Disable `Esync`
+2. Add `WINE_DO_NOT_CREATE_DXGI_DEVICE_MANAGER=1 %command%` in the launch options on Steam
+3. Add `GST_PLUGIN_FEATURE_RANK=protonaudioconverterbin:NONE %command%` in the launch options on Steam (fix opening playback)
+4. Add `PROTON_USE_WINED3D=1 LANG="ja_JP.UTF-8" %command%` in the launch options on Steam (fix white screen issue during opening playback)
+5. Configure Japanese locale
+6. Runs a little laggy on Wine 8 but is smoother on Lutris 7.2.2
+7. Use the special codec script to install `wmp11`
+8. Change Kirikiri settings to use "Layer" in Advanced Settings > Movie Rendering
+9. Use `liarsoftengine` prefix or install `mciqtz32` with the special codec script
+10. Graphical glitches on default Wine
+11. Use `lavfilters` or `ffdshow` prefixes
+12. The original japanese release might require deleting some fonts from the Wine prefix as NScripter defaults to a font on its own and there are no options to select one
+13. Movies don't play
+14. Input lag on some GNU/Linux devices, possible lag when loading an asset
+15. Not yet tested
+16. Install `xact` with `lavfilters` or `ffdshow`
+17. Opening video & audio desync issue can be fixed by limiting the FPS to 30 or running the game with `gamescope --framerate 30 game.exe`
+18. Disable DXVK
+19. Use `wmp10quartz` or `wmp11quartz` prefix where `wmp11` is installed in the latter through the special codec script
+20. Requires special install
+21. Override "d3d9.dll" with `n,b` in "Wine Configuration"
+22. Movies flicker
+23. On the Steam Deck, override the resolution in "Steam Game Properties" to 1920x1080 and limit the framerate to 40 FPS
+24. Turn on fullscreen mode and enable compatibility mode in the game settings
+25. LÖVE engine required (which has native Windows, macOS and GNU/Linux versions}
+26. Set the virtual resolution to 800x600 (fix video cropping)
+27. Fullscreen does not work but can be worked around with Gamescope
+28. Tested with the "Committee of Zero" patch
+29. Read the game-specific guide to see which prefix is needed
+30. Use `wmp10quartz` or `wmp11` prefix
+31. Font is rendered in low quality on Unix systems
+32. Severe frame drops when there're a lot of enemies (Steam Deck)
+33. Use `lavfilters` or `wmp10quartz` prefix
+34. Use Gamescope or "Game mode" to avoid video flickering
+35. Spanish translation works but some characters like “ñ” or letters with accents don't appear
+36. Use modified batch script to run the game
+37. Override "d2d1.dll" with `n,b` in "Wine Configuration"
+38. Make sure patch is up to date
+39. Use `wmp10quartz` or `liarsoftengine` prefix
+40. Needs a font in the prefix to avoid crash at startup
+41. Opening sometimes crashes if not stopped before the end
+42. Broken formatting in the textbox on GNU/Linux
+43. Interface is in Japanese
+44. Install `wmp11` and `quartz_dx` with the special codecs script
+45. Install `xact`
+46. English fan translation has wordwrapping issues on GNU/Linux but the Japanese one works fine
+47. Japanese version requires the `wmp10quartz` prefix (`wmp11quartz` does not work)
+48. Install `quartz` manually as the special codecs script does not work here for 32-bit
+49. English version should work out of the box on Steam
+50. If running the new Unity version in Lutris, make sure to enable DKVX (disable otherwise)
+51. The Kirikiri version requires `wmp11quartz_dx` prefix with Lutris 7.2 while the Unity version should work with a Wine GE 8.22 prefix
+52. Seems to crash on 32-bit prefixes and some Wine versions
+
+## Game-specific information
+
+* Tsukihime is abandonware and can be played [in a browser](https://tsukiweb.holofield.fr/) or [offline](https://www.readtsukihi.me/)
+* True Remembrance has native GNU/Linux and macOS versions
+* Run the Switch version of "Tsukihime -A piece of blue glass moon-" on Ryujinx to avoid sprite lag
+* Umineko - When They Cry PS3 version has been ported to Windows, macOS and GNU/Linux thanks to the Umineko Project Team
+* Katawa Shoujo has native GNU/Linux and macOS versions
+* For Evenicle 1, you must be on the game version 1.04 to do what is described in "Note 24".
+* Kara no Shoujo 2 has native GNU/Linux and macOS versions
+* The Yu-No edition listed here is the Windows port PC with the optional voice and BGM patch
 
