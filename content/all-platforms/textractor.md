@@ -4,6 +4,4 @@ date = 2024-10-24T20:07:15+02:00
 draft = false
 +++
 
-This page is a stub\
-https://github.com/Artikash/Textractor/releases
-
+[Textractor](https://github.com/Artikash/Textractor) (a.k.a. NextHooker) is an open-source x86/x64 video game text hooker for Windows 7+ (and Wine) based off of ITHVNR.
