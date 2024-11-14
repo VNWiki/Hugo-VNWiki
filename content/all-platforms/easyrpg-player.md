@@ -19,4 +19,3 @@ As it supports MIDI playback, you don't need to use a software synthesizer like 
 ## Compatibility
 
 EasyRPG player isn't a silver bullet. Check out this [compatibility list](https://community.easyrpg.org/t/compatibility-list/283) to see if it can run your game.
-
