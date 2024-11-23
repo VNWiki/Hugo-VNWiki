@@ -4,14 +4,13 @@ date = 2024-10-21T19:33:37+02:00
 draft = false
 +++
 
-A brief overview **on what works** for a Visual Novel and its confirmed working platforms.
+A brief overview **on what works** for a visual novel and its confirmed working platforms. Linux versions have been tested with Lutris, Wine/Proton and Winetricks following the [Lutris](/visualnovelwiki/linux/lutris) and [Wineprefixes](/visualnovelwiki/linux/wineprefixes) guides.
 
-* ✅ Verified to work
-* ⚠️ Playable, with some issues
-* ❓ Unknown
-* N/A Not applicable
-
-If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
+* ✅: Verified to work
+* ⚠️: Playable, with some issues
+* ❓: Unknown
+* ❌: Broken
+* N/A: Not applicable
 
 | Visual Novel                                              | Windows | Mac | Linux | Steam Deck | Game engine           | Wineprefix      | Wine version                | Notes                   |
 |-----------------------------------------------------------|---------|-----|-------|------------|-----------------------|-----------------|-----------------------------|-------------------------|
@@ -121,6 +120,8 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 | Moshimo Ashita ga Hare Naraba                             | ✅      | ❓  | ✅    | ✅         |                       | wmp11           | Lutris 7.2                  | Notes 18, 44            |
 | Geminism                                                  | ✅      | ❓  | ✅    | ✅         | Unity                 | any             | Lutris GE Proton 8.23       |                         |
 
+If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
+
 ## Notes
 
 1. Disable `Esync`
@@ -183,6 +184,6 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 * Run the Switch version of "Tsukihime -A piece of blue glass moon-" on Ryujinx to avoid sprite lag
 * Umineko - When They Cry PS3 version has been ported to Windows, macOS and GNU/Linux thanks to the Umineko Project Team
 * Katawa Shoujo has native GNU/Linux and macOS versions
-* For Evenicle 1, you must be on the game version 1.04 to do what is described in "Note 24".
+* For Evenicle 1, you must be on the game version 1.04 to do what is described in "Note 24"
 * Kara no Shoujo 2 has native GNU/Linux and macOS versions
 * The Yu-No edition listed here is the Windows port PC with the optional voice and BGM patch
