@@ -17,6 +17,8 @@ If you're on an Arch-based distribution, you can install Bottles from the AUR (t
 
 For other distributions, install the Flatpak version with `flatpak install flathub com.usebottles.bottles`.
 
+Wine and its dependencies are recommended as they can help to run some games. On Arch Linux, run `pacman -S wine-staging`. On other distributions, follow the [official instructions](https://gitlab.winehq.org/wine/wine/-/wikis/Download).
+
 ## Usage
 
 ### First run
