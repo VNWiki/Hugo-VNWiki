@@ -1,6 +1,6 @@
 +++
 title = 'Bottles compatibility list'
-date = 2024-11-2319:14:20+01:00
+date = 2024-11-23T19:14:20+01:00
 draft = false
 +++
 
