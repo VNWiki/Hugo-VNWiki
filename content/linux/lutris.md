@@ -22,4 +22,3 @@ Get the flatpak from the Discover Store or run the command below in the console:
 ```
 flatpak install flathub net.lutris.Lutris
 ```
-

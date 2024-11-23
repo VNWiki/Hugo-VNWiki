@@ -29,4 +29,3 @@ Once you’ve downloaded it, open it up. The menus are simple.
 
 Choose the one you need and hit Install. That’s it!\
 You can also use this for Steam games as well
-

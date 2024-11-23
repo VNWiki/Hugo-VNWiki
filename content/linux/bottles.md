@@ -17,6 +17,8 @@ If you're on an Arch-based distribution, you can install Bottles from the AUR (t
 
 For other distributions, install the Flatpak version with `flatpak install flathub com.usebottles.bottles`.
 
+Wine and its dependencies are recommended as they can help to run some games. On Arch Linux, run `pacman -S wine-staging`. On other distributions, follow the [official instructions](https://gitlab.winehq.org/wine/wine/-/wikis/Download).
+
 ## Usage
 
 ### First run
@@ -48,4 +50,3 @@ Install [Gamescope](https://repology.org/project/gamescope/versions), go into yo
 ### MangoHud support
 
 Install [MangoHud](https://github.com/flightlessmango/MangoHud#installation---pre-packaged-binaries), go into your bottle settings and enable "Monitor Performance" option in the "Performance section".
-

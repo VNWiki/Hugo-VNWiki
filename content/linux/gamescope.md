@@ -72,4 +72,3 @@ ENABLE_GAMESCOPE_WSI=0 %command%
 On the Gnome DE, it can be possible that shortcuts do not work, [check this link](https://github.com/Plagman/gamescope/issues/424#issuecomment-1260049969) for workaround.\
 As an alternative, you can disable the gamescope check and enable it as a command in Lutris **System Options**, **Command Prefix**
 For example, to upscale from 720p to 1440p with FSR and enable fullscreen: `gamescope -h 720 -H 1440 -U -f`
-

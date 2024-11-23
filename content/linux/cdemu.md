@@ -59,4 +59,3 @@ When that’s finished running, and you’ve pressed **y** to everything, you’
 * Unmount a disc image: `cdemu unload 0`
 
 More information on the [CDEmu ArchWiki page](https://wiki.archlinux.org/title/CDemu)
-

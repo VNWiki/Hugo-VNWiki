@@ -29,4 +29,3 @@ Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your though
 ![Mangagamer](/visualnovelwiki/images/mangagamer_small.png)
 
 Content is available under the Creative Commons Attribution-NoDerivs License, by visualnovelwiki
-
