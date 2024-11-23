@@ -4,8 +4,8 @@ date = 2024-11-2319:14:20+01:00
 draft = false
 +++
 
-| Game                                  | State    | Configuration                                           | Runner    | Notes                                             |
-|---------------------------------------|----------|---------------------------------------------------------|-----------|---------------------------------------------------|
+| Game                                  | State    | Configuration                                                           | Runner    | Notes                                             |
+|---------------------------------------|----------|-------------------------------------------------------------------------|-----------|---------------------------------------------------|
 | Taimanin Asagi 0                      | Working  | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | Flowers                               | Playable | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 2 (movies don't play)                       |
 | Beat Angel Escalayer Reboot           | Working  | [lavfilters](/visualnovelwiki/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
@@ -20,7 +20,7 @@ draft = false
 | Mahotsukai no Yoru                    | Working  | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4                                        |
 | ef - a fairy tale of the two          | Working  | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | Baldr Sky                             | Working  | [lavfilters-micro-gdi](/visualnovelwiki/texts/lavfilters-micro-gdi.yml) | Wine 5.5  | Tweak 2 or workaround 4 (for DXVK)                |
-| Ourai no Gahkthun                     | Playable | any                                                     | Caffe 7.7 | (movies don't play)                               |
+| Ourai no Gahkthun                     | Playable | any                                                                     | Caffe 7.7 | (movies don't play)                               |
 | Starless                              | Working  | [lavfilters-new](/visualnovelwiki/texts/lavfilters-new.yml)             | Wine 8.15 | Tweak 3, 4, 13 or workaround 14                   |
 | Tomoyo After                          | Working  | [lavfilters-j-new](/visualnovelwiki/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 3, 10 or workaround 14                   |
 | Subarashiki Hibi                      | Working  | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
@@ -41,20 +41,20 @@ draft = false
 | Higanbana no Saku Yoru ni             | Working  | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1 (configuration for the whole series)      |
 | Tenioha! : Girls Can Be Pervy Too!    | Working  | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
 | Bunny Black                           | Working  | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Sono Hanabira ni Kuchizuke o (series) | Working  | any                                                     | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
+| Sono Hanabira ni Kuchizuke o (series) | Working  | any                                                                     | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
 | Little Busters                        | Working  | [lavfilters-j-new](/visualnovelwiki/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 3, 10 or workaround 14                   |
 | Clannad                               | Working  | [lavfilters](/visualnovelwiki/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1 (movies don't play)                       |
 | Fata Morgana no Yakata                | Working  | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
 | Deus Machina Demonbane                | Working  | [lavfilters](/visualnovelwiki/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
-| Imouto Paradise (series)              | Playable | [lavfilters-j](/test/lavfilters-j.yml)                  | Caffe 7.7 | Tweak 1, 3, 10, 15 (ImoPara 3 movie is muted)     |
+| Imouto Paradise (series)              | Playable | [lavfilters-j](/test/lavfilters-j.yml)                                  | Caffe 7.7 | Tweak 1, 3, 10, 15 (ImoPara 3 movie is muted)     |
 | eden*                                 | Working  | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | Baldr Force                           | Playable | [lavfilters-j-bfse](/visualnovelwiki/texts/lavfilters-j-bfse.yml)       | Wine 8.15 | Tweak 1, 3, 13, 16 (game starts in windowed mode) |
-| Higurashi no Naku Koro ni             | Working  |                                                         | Caffe 7.7 | (configuration for the whole series)              |
+| Higurashi no Naku Koro ni             | Working  |                                                                         | Caffe 7.7 | (configuration for the whole series)              |
 | Dies Irae                             | Working  | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                    | Playable | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 (movies don't play)               |
-| Shabura Rental                        | Working  | [lavfilters-j](/test/lavfilters-j.yml)                  | Caffe 7.7 | Tweak 1, 15                                       |
+| Shabura Rental                        | Working  | [lavfilters-j](/test/lavfilters-j.yml)                                  | Caffe 7.7 | Tweak 1, 15                                       |
 | Duel Savior                           | Working  | [lavfilters-quartz-j](/visualnovelwiki/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
-| Cosmos no Sora ni                     | Working  | any                                                     | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7 (use C.H.A.O.S.)  |
+| Cosmos no Sora ni                     | Working  | any                                                                     | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7 (use C.H.A.O.S.)  |
 | Kanon                                 | Working  | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | Maitetsu                              | Working  | [lavfilters](/visualnovelwiki/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1                                           |
 | Kana -Little Sister-                  | Playable | [lavfilters-xlite](/visualnovelwiki/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3 (remake uses the same configuration)      |
@@ -62,12 +62,12 @@ draft = false
 
 ## Tweaks
 
-1. Install [Japanese Fonts](https://www.visualnovelwiki.org/en/linux/wineprefix#resources)
+1. Install [Japanese Fonts](/visualnovelwiki/linux/wineprefixes)
 2. Enable "Take Focus" in the bottle display settings if needed
 3. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in `winecfg` ("Legacy Wine Tools > Configuration")
 4. Change renderer to "GDI" in your bottle settings (under "Display" and "Advanced Display Settings") to avoid black screen when switching to fullscreen mode
 5. Enable "Virtual Desktop" (under "Display" and "Advanced Display Settings") and configure it
-6. Change the prefix Windows version to "Windows XP", install `wmfdist11.exe` and change it back to "Windows 10" or install `wmp11` with this [special codec script](https://www.visualnovelwiki.org/en/linux/special-codec#Bottles)
+6. Change the prefix Windows version to "Windows XP", install `wmfdist11.exe` and change it back to "Windows 10" or install `wmp11` with this [special codec script](/visualnovelwiki/linux/special-codecs)
 7. Enable DXVK in the executable shortcut settings
 8. Install `quartz2` with the special codec script
 9. Add `taskset -c 0 %command%` as a launch command to only use the first core of your CPU
@@ -78,7 +78,7 @@ draft = false
 14. Install `wmp10`
 15. Change initial start-up settings
 16. Install `quartz_dx` with the special codec script
-17. Configure Japanese locale [system wide](https://www.visualnovelwiki.org/en/general/jp-locale#linux-steam-deck) or for [Flatpak](https://www.visualnovelwiki.org/en/general/jp-locale#flatpak) then add `LC_ALL=ja_JP.UTF-8` and `TZ=Asia/Tokyo` as environment variables
+17. Configure Japanese locale [system wide](/visualnovelwiki/linux/wineprefixes) or for [Flatpak](/visualnovelwiki/linux/wineprefixes) then add `LC_ALL=ja_JP.UTF-8` and `TZ=Asia/Tokyo` as environment variables
 18. Add `PULSE_LATENCY_MSEC=60` as an environment variable to fix audio crackling
 19. Install Mangohud and add these commands/environment variables as a launch command in your executable shortcut settings if a game runs at a really high framerate: `MANGOHUD=1 MANGOHUD_CONFIG=no_display,fps_limit=60 DXVK_HUD=1` or `MANGOHUD_CONFIG=no_display,fps_limit=30,vsync=3,gl_vsync=1 mangohud --dlsym %command%`
 20. Import [this registry file](/visualnovelwiki/texts/wine_breeze_theme.reg) using the registry editor (under "Tools", in your bottle settings) to change the Windows theme to a more modern one (runners usually come with a similar theme by default)
@@ -107,40 +107,44 @@ draft = false
 
 ## Suggested Wine versions
 
-- Caffe 7.7
-- GE-Proton 8-6
-- GE-Proton 7-55
-- GE-Proton 9-5
-- GE-Proton 9-7
-- GE-Proton 9-9
-- GE-Proton 9-10
-- GE-Proton 9-13
-- Kron4ek Wine 8.21
-- Kron4ek Wine 8.15
-- Lutris Wine 6.14-4
-- Lutris Wine 7.2
-- Proton 5.13-6
-- UMU-Proton 9.0-2
-- Wine 5.5
-- Wine 5.10
-- Wine 6.3
-- Wine 6.0.1
-- Wine 6.21
-- Wine 7.1-1
-- Wine 7.2-1
-- Wine 5.0
-- Wine 6.0.1
-- Wine 9.14
-- Wine 9.18
-- Wine-GE-Proton 8-5
+If you don't know which Wine/Proton version might be the best for a particular game, try these ones:
+
+* Caffe 7.7
+* GE-Proton 8-6
+* GE-Proton 7-55
+* GE-Proton 9-5
+* GE-Proton 9-7
+* GE-Proton 9-9
+* GE-Proton 9-10
+* GE-Proton 9-13
+* Kron4ek Wine 8.21
+* Kron4ek Wine 8.15
+* Lutris Wine 6.14-4
+* Lutris Wine 7.2
+* Proton 5.13-6
+* UMU-Proton 9.0-2
+* Wine 5.5
+* Wine 5.10
+* Wine 6.3
+* Wine 6.0.1
+* Wine 6.21
+* Wine 7.1-1
+* Wine 7.2-1
+* Wine 5.0
+* Wine 6.0.1
+* Wine 9.14
+* Wine 9.18
+* Wine-GE-Proton 8-5
 
 ## Suggested dependencies
 
-- d3dx9
-- dirac
-- dotnet35
-- dotnet40
-- ffdshow
-- lavfilters741
-- vcredist2005
-- vcredist2008
+If you don't know which dependencies might be needed for a particular game, try these ones:
+
+* d3dx9
+* dirac
+* dotnet35
+* dotnet40
+* ffdshow
+* lavfilters741
+* vcredist2005
+* vcredist2008
