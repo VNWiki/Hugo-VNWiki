@@ -50,4 +50,3 @@ Install [Gamescope](https://repology.org/project/gamescope/versions), go into yo
 ### MangoHud support
 
 Install [MangoHud](https://github.com/flightlessmango/MangoHud#installation---pre-packaged-binaries), go into your bottle settings and enable "Monitor Performance" option in the "Performance section".
-

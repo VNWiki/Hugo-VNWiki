@@ -95,4 +95,3 @@ sh ./japanese_locale_enabler.sh
 ```
 
 This script does the same thing as the above system-wide commands for the Steam Deck.
-

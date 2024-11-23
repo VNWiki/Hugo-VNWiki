@@ -186,4 +186,3 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 * For Evenicle 1, you must be on the game version 1.04 to do what is described in "Note 24".
 * Kara no Shoujo 2 has native GNU/Linux and macOS versions
 * The Yu-No edition listed here is the Windows port PC with the optional voice and BGM patch
-

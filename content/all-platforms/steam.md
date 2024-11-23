@@ -57,4 +57,3 @@ If Steam downloads are slower than normal, you can disable HTTP2 by running thes
 echo "@nClientDownloadEnableHTTP2PlatformLinux 0" >> ~/.steam/steam/steam_dev.cfg
 echo "@fDownloadRateImprovementToAddAnotherConnection 1.0" >> ~/.steam/steam/steam_dev.cfg
 ```
-
