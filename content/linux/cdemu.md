@@ -24,9 +24,21 @@ If you make a mistake, simply press **CTRL + C** to cancel the command.
 1. To install CDEmu on the Deck, just run these commands in the Konsole:
 
 {{< tabs >}}
-{{% tab title="SteamOS 3.5+" %}}
+{{% tab title="SteamOS 3.6+" %}}
 ```
-pacman-key --init # run these two commands if the below doesn't work
+# run these two commands if the below doesn't work
+pacman-key --init
+pacman-key --populate
+
+sudo pacman -S linux-neptune-65-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
+
+sudo modprobe vhba
+```
+{{% /tab %}}
+{{% tab title="SteamOS 3.5" %}}
+```
+# run these two commands if the below doesn't work
+pacman-key --init
 pacman-key --populate
 
 sudo pacman -S linux-neptune-61-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
@@ -36,7 +48,8 @@ sudo modprobe vhba
 {{% /tab %}}
 {{% tab title="SteamOS 3.4 or before" %}}
 ```
-pacman-key --init # run these two commands if the below doesn't work
+# run these two commands if the below doesn't work
+pacman-key --init
 pacman-key --populate
 
 sudo pacman -S linux-neptune-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
