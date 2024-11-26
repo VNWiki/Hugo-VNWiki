@@ -89,6 +89,7 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Gore Screaming Show                                       | ✅      | ❓  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
 | Hoshi Ori Yume Mirai                                      | ✅      | ✅  | ✅    | ✅         | Siglus Engine         | any             | Lutris GE Proton 7.32+      |                         |
 | Kanon                                                     | ✅      | ✅  | ✅    | ✅         | RealLive              | any             | Lutris 7.21+/Proton 7+      |                         |
+| Kanon 2024                                                | ✅      | ✅  | ✅    | ✅         | Luca System           | any             | Proton 8+                   |                         |
 | Muv-Luv                                                   | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris GE Proton 7.21+      |                         |
 | Muv-Luv Alternative                                       | ✅      | ✅  | ✅    | ✅         |                       | any             | any                         |                         |
 | Kana \~Imouto\~                                           | ✅      | ❓  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.2+                 |                         |
@@ -108,7 +109,7 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Sakuranomori Dreamers                                     | ✅      | ❓  | ✅    | ✅         |                       | any             | Proton GE 7.43              |                         |
 | Shin Koihime † Musou \~Otome Ryouran ☆ Sangokushi Engi\~  | ✅      | ❓  | ✅    | ✅         |                       | lavfilters      | Proton GE 7.16              | Note 43                 |
 | Ore-tachi ni Tsubasa wa Nai                               | ✅      | ❓  | ✅    | ❓         | Lucifen               | wmp11           | Lutris 7.2                  | Notes 18, 44            |
-| Hello;World                                               | ✅      | ❓  | ✅    | ❓         | nps                   | wmp11           | Lutris 7.2                  | Notes 18, 44            |
+| Hello;World                                               | ✅      | ❓  | ✅    | ❓         | nps                   | wmp11quartz_dx  | Lutris 7.2                  | Notes 18, 44            |
 | NUKITASHI                                                 | ✅      | ❓  | ✅    | ❓         | Shiina Rio            | any             | Lutris 7.2                  |                         |
 | Kishin Houkou Demonbane                                   | ✅      | ❓  | ✅    | ✅         | N4System              | muramasaengine  | Lutris 7.2                  | Notes 45, 46            |
 | Sore wa Maichiru Sakura no You ni -Re:BIRTH-              | ✅      | ❓  | ✅    | ✅         | Artemis               | any             | Lutris GE Proton 8.14       |                         |
@@ -116,9 +117,23 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Rewrite                                                   | ✅      | ❓  | ✅    | ✅         | Siglus engine         | wmp10quartz     | Lutris 7.2                  | Notes 47, 48, 49        |
 | Clover Day's Plus                                         | ✅      | ❓  | ✅    | ✅         | Kirikiri/Unity        | wmp11quartz_dx  | Lutris 7.2                  | Notes 50, 51            |
 | Sousaku Kanojo no Ren'ai Koushiki                         | ✅      | ❓  | ✅    | ✅         | Kirikiri              | wmp11quartz     | Lutris 7.2                  | Note 18                 |
-| Tenshi no Nichou Kenjuu -Angelos Armas-                   | ✅      | ❓  | ✅    | ✅         | nps                   | wmp11           | Lutris 7.2                  | Notes 18, 44, 52        |
+| Tenshi no Nichou Kenjuu -Angelos Armas-                   | ✅      | ❓  | ✅    | ✅         | nps                   | wmp11quartz_dx  | Lutris 7.2                  | Notes 18, 44, 52        |
 | Moshimo Ashita ga Hare Naraba                             | ✅      | ❓  | ✅    | ✅         |                       | wmp11           | Lutris 7.2                  | Notes 18, 44            |
 | Geminism                                                  | ✅      | ❓  | ✅    | ✅         | Unity                 | any             | Lutris GE Proton 8.23       |                         |
+| Shinsetsu Mahou Shoujo                                    | ✅      | ❓  | ✅    | ✅         | SRPG Stduio           | any             | Wine 8.21+                  | Notes 53, 54, 55        |
+| Mahou Tsukai no Yoru/Witch on the Holy Night              | ✅      | ❓  | ✅    | ✅         | HuneX                 | any             | Proton 9+                   | Notes 18, 56            |
+| Gunjou no Sora o Koete                                    | ✅      | ❓  | ✅    | ✅         | Malie                 | proton-ge       | Proton GE 8.27              | Notes 5,  18            |
+| Dungeon travellers 2/2-2                                  | ✅      | ❓  | ✅    | ✅         |                       | Wine-ge/proton-ge| Proton GE 8.27             | Note 5 (JP version)     |
+| Sky Chord                                                 | ✅      | ❓  | ✅    | ✅         | YU-RIS                | liarsoftengine  | Lutris 7.2                  | Notes 9, 18, 57         |
+| Amakano 2 Perfect editition                               | ✅      | ❓  | ❌    | ❌         | CatSystem2            | proton-ge       | Proton GE 9.5+              | Note 58                 |
+| Tsukikage no Simulacre                                    | ✅      | ❓  | ✅    | ✅         | Kirikiri              | Vanilla         | Wine 9.14                   | Notes 5,  59            |
+| Shizuku 1996                                              | ✅      | ❓  | ✅    | ✅         |                       | wine-ge         | wine GE 8.25                | Note 5                  |
+| Shizuku DVD 2004                                          | ✅      | ❓  | ✅    | ✅         |                       | wmp11quartz     | Lutris 7.2                  | Notes 5, 18, 30         |
+| Mizuchi no Miko                                           | ✅      | ❓  | ✅    | ✅         | codeX                 | proton-ge       | Proton GE 9.13              | Notes 5, 60             |
+| Moon Ghost                                                | ✅      | ❓  | ✅    | ✅         | Kirikiri              | proton 9 + wmp11| Proton GE 9.13              | Note 5, 7, 18           |
+| Otome Sekai no Arukikata                                  | ✅      | ❓  | ✅    | ✅         | Kirikiri              | proton 9 + wmp11| Proton GE 9.13              | Notes 5, 7, 18          |
+| Ren'ai Jakusha na Osananajimi... (Renjaku)                | ✅      | ❓  | ✅    | ✅         | Waffle Engine         | wmp11quartz     | Lutris 7.2                  | Notes 5, 18, 19, 27, 61 |
+| Imouto to Kanojo                                          | ✅      | ❓  | ✅    | ✅         | Waffle Engine         | any             | Wine GE 8.25                | Notes 5, 27, 61         |
 
 If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
 
@@ -141,7 +156,7 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 15. Not yet tested
 16. Install `xact` with `lavfilters` or `ffdshow`
 17. Opening video & audio desync issue can be fixed by limiting the FPS to 30 or running the game with `gamescope --framerate 30 game.exe`
-18. Disable DXVK
+18. Disable DXVK. In steam: PROTON_USE_WINED3D=1 %command%
 19. Use `wmp10quartz` or `wmp11quartz` prefix where `wmp11` is installed in the latter through the special codec script
 20. Requires special install
 21. Override "d3d9.dll" with `n,b` in "Wine Configuration"
@@ -176,6 +191,15 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 50. If running the new Unity version in Lutris, make sure to enable DKVX (disable otherwise)
 51. The Kirikiri version requires `wmp11quartz_dx` prefix with Lutris 7.2 while the Unity version should work with a Wine GE 8.22 prefix
 52. Seems to crash on 32-bit prefixes and some Wine versions
+53. need to have the windows scripting host system set up on the prefix (winetricks wsh57).
+54. WINEDLLOVERRIDES="jscript=n" being set up otherwise the javascript of srpg studio won't run and it crashes on startup (this may not be needed anymore). 
+55. Having certain fonts seem to work but the fakejapanese winetricks package seems to work fine without anything. In case of performance issue delete the content of the font folder of your prefix and try with fewer fonts.
+56. Install mf with the special codecs. [Steam thread](https://steamcommunity.com/app/2052410/discussions/0/4034726433726697483/)
+57. Run with PULSE_LATENCY_MSEC=120 environment variable if audio crackling
+58. Game freezes in auto read scenes in linux; need to read those scenes in windows transfering saves back and forth. Only 1 scene per route has autoread so other than that it works perfectly fine.
+59. Install `directshow` and `wmp9`: protontricks/winetricks -q directshow wmp9
+60. Some versions like lutris 7.2 and proton-ge 9.9 have audio crackling. 9.13 works fine and plays videos.
+61. Can increase font in engine: use [garbro](https://github.com/morkt/GARbro) in Windows, extract init.ini from cfg.pak, make cfg folder, place init.ini into cfg folder, change MsgFontSize
 
 ## Game-specific information
 
