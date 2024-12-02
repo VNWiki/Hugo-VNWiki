@@ -23,9 +23,4 @@ Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your though
 * ⚙️ Known issues section
 * 🔗 Links to VN patches
 
-## Our friends & affiliates 
-
-![Fuwanovel](/visualnovelwiki/images/fuwanovel_small.png)
-![Mangagamer](/visualnovelwiki/images/mangagamer_small.png)
-
 Content is available under the Creative Commons Attribution-NoDerivs License, by visualnovelwiki
