@@ -8,12 +8,6 @@ draft = false
 
 ### Linux
 
-#### Video tutorial
-
-If you prefer a video tutorial, it’s [available here](https://web.archive.org/web/20240526233950mp_/https://www.youtube.com/embed/EBaKtyWcwEk)!
-
-#### Text version
-
 > [!info] Requirements
 > Lutris have to be installed and [muramasafiles_lite](https://web.archive.org/web/20240526233950mp_/https://drive.google.com/file/d/1EF2YSQkTAY6FuIwH-xbSrZF8UNYnYmtA/view?usp=share_link) downloaded.
 
