@@ -203,7 +203,6 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 
 ## Game-specific information
 
-* Tsukihime is abandonware and can be played [in a browser](https://tsukiweb.holofield.fr/) or [offline](https://www.readtsukihi.me/)
 * True Remembrance has native GNU/Linux and macOS versions
 * Run the Switch version of "Tsukihime -A piece of blue glass moon-" on Ryujinx to avoid sprite lag
 * Umineko - When They Cry PS3 version has been ported to Windows, macOS and GNU/Linux thanks to the Umineko Project Team
