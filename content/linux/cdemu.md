@@ -24,9 +24,21 @@ If you make a mistake, simply press **CTRL + C** to cancel the command.
 1. To install CDEmu on the Deck, just run these commands in the Konsole:
 
 {{< tabs >}}
-{{% tab title="SteamOS 3.5+" %}}
+{{% tab title="SteamOS 3.6+" %}}
 ```
-pacman-key --init # run these two commands if the below doesn't work
+# run these two commands if the below doesn't work
+pacman-key --init
+pacman-key --populate
+
+sudo pacman -S linux-neptune-65-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
+
+sudo modprobe vhba
+```
+{{% /tab %}}
+{{% tab title="SteamOS 3.5" %}}
+```
+# run these two commands if the below doesn't work
+pacman-key --init
 pacman-key --populate
 
 sudo pacman -S linux-neptune-61-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
@@ -36,7 +48,8 @@ sudo modprobe vhba
 {{% /tab %}}
 {{% tab title="SteamOS 3.4 or before" %}}
 ```
-pacman-key --init # run these two commands if the below doesn't work
+# run these two commands if the below doesn't work
+pacman-key --init
 pacman-key --populate
 
 sudo pacman -S linux-neptune-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
@@ -53,3 +66,9 @@ When that’s finished running, and you’ve pressed **y** to everything, you’
 > You can also refresh manually by clicking on the menu icon **☰** on the top right > More > View > Refresh.
 > You may need to run this everytime SteamOS updates, or whenever it disappears, because the Steam Deck has an **immutable OS**.
 
+## Usage
+
+* Mount a disc image: `cdemu load 0 ~/image.iso`
+* Unmount a disc image: `cdemu unload 0`
+
+More information on the [CDEmu ArchWiki page](https://wiki.archlinux.org/title/CDemu)

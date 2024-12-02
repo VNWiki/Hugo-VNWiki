@@ -37,4 +37,3 @@ To do so, please follow the below steps.
 2. Select Properties, then scroll down. Change the **Game Resolution** to something lower than **1280x800**; the Steam Deck’s native resolution.
 
 You may need to fiddle around with the resolution until the Steam Deck automatically upscales the image.
-

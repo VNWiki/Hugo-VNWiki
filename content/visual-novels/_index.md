@@ -1,4 +1,4 @@
 +++
-title = "Linux"
+title = "Visual Novels"
 type = "chapter"
 +++

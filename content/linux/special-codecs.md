@@ -58,6 +58,19 @@ bottles-cli standalone -b BOTTLE
 ./standalone ./codec.sh wmp11 quartz2
 ```
 
+## Steam
+
+1. Install and open [protontricks](https://github.com/Matoking/protontricks). On the Steam Deck it can be found in the Discover store
+2. Select your game. \
+    For non-steam games you will see the name of the .exe and a random id: WA2.exe: 2648131855
+3. Select the default wineprefix
+4. Run a commandline shell (for debugging)
+5. Run the codec normally. example: 
+
+```
+sh /home/deck/Downloads/vn_winestuff-main/codec.sh wmp11 quartz2
+```
+
 ## Codec Install Examples
 
 1. Installing the codecs for wmp + quartz2 (leyline series, various kirikiri VNs)
@@ -83,4 +96,3 @@ sh codec.sh mf quartz2 lavfilters
 ```
 sh codec.sh mciqtz32
 ```
-

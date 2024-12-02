@@ -3,22 +3,22 @@ title = ""
 type = "home"
 +++
 
-Welcome to the new Visual Novel Wiki!
+Welcome to the all-new Visual Novel Wiki! 
 
-The Visual Novel Wiki is made to help you find out how to play a visual novel!\
-**We support all platforms: Windows, Mac, Linux & Steam Deck.**\
-Feel free to join the [Discord](https://discord.gg/GaEa5Mm2Xr) to discuss & help decide what this wiki should have.
+We're here to guide you through the exciting world of visual novels, ensuring you have the best experience across **all platforms**: Windows, Mac, Linux, and Steam Deck. 
 
-{{% button href="/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
+Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your thoughts and help shape the future of this wiki.
+
+{{% button href="/visualnovelwiki/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
 
 > [!warning] Open Beta
-> Since this an Open Beta, expect some bugs to happen. Please report them in the Discord #wiki-channel.
+> As this is an Open Beta, you may encounter some bugs. Please report any issues in the #wiki-channel on our Discord.
 
 ## About
 
 * 📄 The VN Compatibility List!
-* 📁 Link for 100% Save Files
-* 💽 Basic content parity with vndb
+* 📁 100% Save Files
+* 💽 Basic content parity with VNDB
 * 🧭 Easy access to walkthroughs
 * ⚙️ Known issues section
 * 🔗 Links to VN patches
@@ -29,4 +29,3 @@ Feel free to join the [Discord](https://discord.gg/GaEa5Mm2Xr) to discuss & help
 ![Mangagamer](/visualnovelwiki/images/mangagamer_small.png)
 
 Content is available under the Creative Commons Attribution-NoDerivs License, by visualnovelwiki
-
