@@ -31,112 +31,101 @@ And so, you can have multiple wine prefixes. This is what we’re going to do.
 
 Here are the main wineprefixes we’ll be needing to use for most cases.
 
-1. Start by creating multiple folders called:
-* lavfilters
-* ffdshow
-* wmp11
-* xact
-* wmp10
-* wmp10quartz
-* vanilla
+- proton_ge
+- wmp11quartz
+- vanilla
 
-You also can automate folder creation by using the console command (works on Steam Deck): `mkdir lavfilters ffdshow wmp11 xact wmp10 wmp10quartz vanilla`
+Some other prefixes for less common cases:
 
-> [!info] Info
-> A vanilla wineprefix has nothing inside of it. You can skip step 3 for that wineprefix.
+- lavfilters
+- mciqtz32
+- ffdshow
+- wmp11
+- xact
+- quartz_dx
+- wmp10quartz
 
-2. Next, we’ll setup each folder.
+### Steps
 
-In Lutris, visit any game’s config and enter these settings
+1. Create an empty folder with the name of every prefix you will be using.
+    
+    You also can automate folder creation by using the console command (works on Steam Deck), example: 
+`mkdir proton_ge wmp11quartz wmp11 xact wmp10quartz vanilla`
 
-Game Options:
-* **Wine prefix**: **path_to_your_wineprefix_folder**
-* **Prefix architecture**: **64bit** (**32bit** for wmp10 & wmp10quartz)
+2. Next, we’ll setup each folder. 
 
-Runner Options:
-* **Wine version**: **Lutris 7.2 (default)**
+    In Lutris, visit any game’s config and enter these settings
+
+    Game Options:
+    * **Wine prefix**: **path_to_your_wineprefix_folder**
+    * **Prefix architecture**: **64bit** (**32bit** for wmp10 & wmp10quartz)
+
+    Runner Options:
+    * **vanilla** Prefix: **Wine 9.18** (There was a big update in video playback with this version). Install from [protonUp-qtCodecs]({{< ref "protonup" >}}) Kron4ek Builds
+    * **proton_ge** Prefix: **Proton-ge 9.13** (Or newer versions). Install from [protonUp-qtCodecs]({{< ref "protonup" >}}) Select Steam and install Proton-ge it will appear in Lutris after restarting.
+    * **Others**: **Lutris 7.2** (default) (Do not pick Lutris 7.2.2 It has issues with video playback). Disable DXVK for this case.
+    
 
 > [!info] Info
 > The **path** is the location of the folders we’ve just made.
 
-> [!info] Info
-> For developers who are lazy, enter the wineprefix field once in Lutris, then specify the wineprefix field before each command and append `&&` for each component command in the **Bash Terminal**.
+3. Go to [Special Codecs]({{< ref "special-codecs" >}}) and download it in some route like ~/Documents. Make sure to change the path in following commands to where you downloaded it.
 
-3. Then, for each wineprefix folder, you’ll want these components depending on their name.
+4. For each wineprefix folder, you’ll want these components depending on their name.
 * Click the 🍷 wine bottle, and click **Bash Terminal**.
 * Copy the command (based on the name of the prefix), paste it into each Terminal using **CTRL + SHIFT + V**
-* Hit **Enter** to input the command.
-
-> [!warning] Warning
-> You must manually enable ALL codecs for **ffdshow** (including MPEG-1/2!) when the pop up occurs at the end of the install.
-
-* **lavfilters** (64bit): `winetricks -q --force lavfilters d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015`
-* **ffdshow** (64bit): `winetricks -q --force d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015 && winetricks ffdshow`
-* **wmp11** (64bit): `winetricks -q --force wmp11 d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015`
-* **xact** (64bit): `winetricks -q --force xact d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015`
-* **wmp32** (32bit): `winetricks -q --force wmp10 d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015`
-* **wmp32quartz** (32bit): `winetricks -q --force wmp10 d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015`
-
-4. Next, within each wineprefix folder, install the [Windows Japanese Fonts](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view).\
-To install, place your fonts in **your_wineprefix/drive_c/Windows/Fonts**. This ensures your VNs can load the right font.\
-Great! All the wineprefixes are now setup, except for **wmp10quartz** which needs special handling. You can skip this prefix if you don’t need it.
-
-5. Get the [custom quartz files](https://www.visualnovelwiki.org/tutorials/wineprefixes/quartz2.zip). The .zip contains:
-* quartz2.dll
-* quartz2-win32.reg
-* quartz2-win64.reg
-
-> [!warning] Warning
-> This archive also comes with quartz2-win64.reg, which can be used for 64 bit wineprefixes. **quartz2.dll** would also go in **drive_c/Windows/SysWow64** instead of **system32**. This wineprefix is using 32bit.
-
-6. Find your wmp10quartz folder, and navigate to wmp10quartz/drive_c/Windows/system32\
-Drag and drop the quartz2.dll file in there.
-
-7. In Lutris, choose any game, and set the wineprefix to the wmp10quartz directory.\
-* Game info
-    * **Runner**, select **Wine**
-* Game options
-    * **Wine prefix**, set **wmp10quartz**’s folder path.
-    * **Wine architecture**, set it to **32bit**
-
-8. Save and click the 🍷 Wine Bottle, then select Bash Terminal.
-
-9. Enter this command so we’re in the quartz2 folder:
-
-```
-cd <path-to-the-quartz2-folder-you-just-extracted>
-# could be like this if in Downloads folder: cd ~/Downloads/quartz2
-```
-
-10. Enter this command to register the **quartz2.dll** file in the wineprefix (yhen close the **Bash Terminal**):
-
-```
-wine regsvr32 quartz2.dll
-```
-
-11. Click the 🍷 Wine Bottle again, then select Wine Registry. You’ll get a popup for the Windows Registry.
-
-12. Click **Registry** in the **Toolbar** then **Import Registry File**. Find & import the **quartz2-win32.reg** file you downloaded.
-
-Now you’re done! You can play most VNs now. Each VN page on the wiki should also have an install section or specify what wineprefix is needed.
-
-## Special wineprefixes
-
-For special games that require a certain prefix, i.e. Demonbane.
-
-* demonbaneengine
-* liarsoftengine
-* yunoengine
-
-In the [visual novel compatibility list](/all-platforms/visual-novel-compatibility-list), you might see: special: **wmp11** or whichever codec that’s specified. Please refer to the [special codec page](/linux/special-codecs) for those niche cases.
+* Hit **Enter** to input the command and wait for them to finish.
 
 > [!info] Info
-> The word "engine" here just refers to the name of the prefix, which is more intuitive and meaningful than just saying "wineprefix".
+> The prefixes for **vanilla** and **proton_ge** do not need to install any extra components.
 
-## Wine bugs/issues
+* **wmp11quartz** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz2`
+* **wmp11** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11`
+* **wmp10** (32bit): `winetricks -q --force wmp10` (wmp10 install is currently borked, can't be used)
+* **wmp10quartz** (32bit): `winetricks -q --force wmp10 && sh ~/Documents/vn_winestuff-main/codec.sh quartz2` (wmp10 install is currently borked, can't be used)
+* **quartz_dx** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz_dx`
 
-> [!warning] Warning
-> Installing quartz starting from Proton GE >= 7.20 won’t work. Still won’t work as of Proton GE 7.50. To get around this, use another Wine version/flavour before installing quartz.
+    > [!info] Info
+    > wmp11quartz2 should work for most titles, but sometimes you need to use the variants in different titles.
+
+* **lavfilters** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh lavfilters`
+* **xact** (64bit): `winetricks -q --force xact`
+* **mciqtz32** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh mciqtz32`
+
+    > [!info] Info
+    > mciqtz32 is used for VNs in Liarsoft and YU-RIS engine
+
+* **ffdshow** (64bit): `winetricks ffdshow`
+
+    > [!warning] Warning
+    > You must manually enable ALL codecs for **ffdshow** (including MPEG-1/2!) when the pop up occurs at the end of the install.
+
+5. Next, within each wineprefix folder, install the [Windows Japanese Fonts](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view).\
+To install, place your fonts in **your_wineprefix/drive_c/Windows/Fonts**. This ensures your VNs can load the right font.\
+
+    > [!info] Info
+    > If you want to save disk space you can symlink the fonts instead of copying them with: \
+    `ln -s "~/Desktop/Fonts/" ~/Games/wine_prefixes/wmp11quartz/drive_c/windows/` \
+    Make sure to delete the Fonts folder inside the prefix beforehand.
+    
+Great! All the wineprefixes are now setup
+
+Check [visual novel compatibility list](/all-platforms/visual-novel-compatibility-list) to know what prefixes you need to utilize for each game. If the game is not in the list try prefixes for other games using the same engine or developer. If can't find anything try proton-ge as a good first generic prefix.
+
+
+## Special tips
+
+> [!info] Info
+> Do not use lutris 7.2.2 It has video playback issues. Lutris 7-x versions are pretty old at this point so if you want to change to newer versions feel free but it generally works fine and some codecs like mciqtz32 doesn't work with newer versions.
+
+> [!info] Info
+> wmp11_quartz can be installed in newer Proton prefixes too.
+
+> [!warning] warning
+> If you have any issues with video playback or old VNs lagging make sure DXVK is disabled.
+
+> [!warning] warning
+> If you have any issues rendering text in game make sure to have fonts in the prefix and use JP Locale variable `LANG="ja_JP.UTF-8"`.
 
 > [!warning] Warning
 > wmp11's 32bit installer is broken, but [we fixed it](https://github.com/Winetricks/winetricks/pull/1990). However, it’ll take some time before it gets downstreamed to a Wine version we can generally use. For now, we have to use a 64bit prefix (as of April 21 2023) with Lutris 7.2.
