@@ -14,6 +14,8 @@ Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your though
 > [!warning] Open Beta
 > As this is an Open Beta, you may encounter some bugs. Please report any issues in the #wiki-channel on our Discord.
 
+If anything is missing, check out the [old wiki on archive.org](https://web.archive.org/web/20241006061214/https://www.visualnovelwiki.org/).
+
 ## About
 
 * 📄 The VN Compatibility List!

@@ -1,0 +1,43 @@
++++
+title = 'Kanon'
+date = 2025-01-24T10:43:49+01:00
+draft = false
++++
+
+## Installation
+
+### Windows
+
+Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click on a game and choose "Run" in the "Locale Emulator" section.
+
+### Linux
+
+> [!info] Information
+> Requires to have [JP Locale enabled](/visualnovelwiki/all-platforms/jp-locale).
+
+#### Lutris
+
+Add locally installed game with these settings:
+
+* In "Game info", select "Wine" for "Runner"
+* In "Game options", select any prefix directory for "Wine prefix" and `game.exe` for "Executable"
+* In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
+
+#### Steam
+
+In Steam, right click "Kanon", select "Properties", visit the "Launch Options" tab and copy paste the following command:
+
+```
+LANG="ja_JP.utf8" %command%
+```
+
+### Steam Deck
+
+Same as Linux.
+
+## Links
+
+* [VNDB](https://vndb.org/v33)
+* [SteamGridDB](https://www.steamgriddb.com/game/5248619)
+* [Walkthrough](https://forums.fuwanovel.net/topic/2406-kanon/)
+* 100% CG save file
