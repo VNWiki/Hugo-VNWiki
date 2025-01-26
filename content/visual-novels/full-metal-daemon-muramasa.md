@@ -9,7 +9,7 @@ draft = false
 ### Linux
 
 > [!info] Requirements
-> Lutris have to be installed and [muramasafiles_lite](https://web.archive.org/web/20240526233950mp_/https://drive.google.com/file/d/1EF2YSQkTAY6FuIwH-xbSrZF8UNYnYmtA/view?usp=share_link) downloaded.
+> Lutris have to be installed and [muramasafiles_lite](https://drive.google.com/file/d/1EF2YSQkTAY6FuIwH-xbSrZF8UNYnYmtA/view?usp=share_link) downloaded.
 
 > [!warning] Warning
 > **muramasafiles_lite** is a repackaged version of these files: [mf-install](https://github.com/z0z0z/mf-install), [mf-installcab](https://github.com/z0z0z/mf-installcab) [XAudio2 (x86)](https://www.nuget.org/packages/Microsoft.XAudio2.Redist/). This **XAudio2 .nupkg** should contain **xaudio2_9redist.dll** in **build\native\debug\bin\x86**. It’s been renamed to **xaudio2_8.dll** for Muramasa (and other visual novels that may use it) specifically.
@@ -35,7 +35,7 @@ Click **+** then **Add locally installed game** with these settings:
 
 3. Install mf-install.sh in Bash Terminal
 
-Click the 🍷 wine bottle on the bottom and click Bash Terminal. Once it’s open, run these commands.
+Click the Wine bottle on the bottom and click Bash Terminal. Once it’s open, run these commands.
 
 ```
 cd <path to the mf-install-muramasa folder>
@@ -71,8 +71,6 @@ Same as Linux, but set these settings in-game:
 
 ## Save Data
 
-[100% CG save file](https://web.archive.org/web/20240526233950mp_/https://www.visualnovelwiki.org/tutorials/v2016/muramasa_save.zip)
-
 ### Windows
 
 Overwrite the folder contents in `%APPDATA%\Nitroplus\Muramasa\1.00s\`
@@ -87,6 +85,7 @@ Overwrite the folder contents in `<wineprefixfolder>/drive_c/users/<yourusername
 
 * [VNDB](https://vndb.org/v2016)
 * [SteamGridDB](https://www.steamgriddb.com/game/5263067)
-* [Walkthrough](https://forums.fuwanovel.net/topic/25473-full-metal-daemon-muramasa-soukou-akki-muramasa-%E8%A3%85%E7%94%B2%E6%82%AA%E9%AC%BC%E6%9D%91%E6%AD%A3/)
 * [JAST USA](https://jastusa.com/games/jast037/full-metal-daemon-muramasa) (18+ uncensored)
 * [GOG](https://www.gog.com/en/game/full_metal_daemon_muramasa) (All ages censored)
+* [Walkthrough](https://forums.fuwanovel.net/topic/25473-full-metal-daemon-muramasa-soukou-akki-muramasa-%E8%A3%85%E7%94%B2%E6%82%AA%E9%AC%BC%E6%9D%91%E6%AD%A3/)
+* 100% CG save file
