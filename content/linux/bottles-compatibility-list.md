@@ -54,13 +54,13 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | Clannad                               | ✅    | [lavfilters](/visualnovelwiki/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1 and note 1                                |
 | Fata Morgana no Yakata                | ✅    | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
 | Deus Machina Demonbane                | ✅    | [lavfilters](/visualnovelwiki/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
-| Imouto Paradise (series)              | ⚠️    | [lavfilters-j](/test/lavfilters-j.yml)                                  | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
+| Imouto Paradise (series)              | ⚠️    | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
 | eden*                                 | ✅    | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | Baldr Force                           | ⚠️    | [lavfilters-j-bfse](/visualnovelwiki/texts/lavfilters-j-bfse.yml)       | Wine 8.15 | Tweak 1, 3, 13, 16 and note 2                     |
 | Higurashi no Naku Koro ni (series)    | ✅    | ❓                                                                      | Caffe 7.7 |                                                   |
 | Dies Irae                             | ✅    | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                    | ⚠️    | [lavfilters-lite](/visualnovelwiki/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
-| Shabura Rental                        | ✅    | [lavfilters-j](/test/lavfilters-j.yml)                                  | Caffe 7.7 | Tweak 1, 15                                       |
+| Shabura Rental                        | ✅    | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 15                                       |
 | Duel Savior                           | ✅    | [lavfilters-quartz-j](/visualnovelwiki/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
 | Cosmos no Sora ni                     | ✅    | any                                                                     | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
 | Kanon                                 | ✅    | [lavfilters-j](/visualnovelwiki/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
