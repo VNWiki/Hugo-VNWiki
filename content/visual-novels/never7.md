@@ -38,4 +38,3 @@ Overwrite the folder contents in `~/.local/share/love/Never7Eternal`.
 * [VNDB](https://vndb.org/v248)
 * [SteamGridDB](https://www.steamgriddb.com/game/34700)
 * [Walkthrough](https://forums.fuwanovel.net/topic/731-never-7/)
-* 100% CG save file

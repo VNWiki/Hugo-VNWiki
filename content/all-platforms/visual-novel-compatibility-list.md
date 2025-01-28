@@ -4,7 +4,7 @@ date = 2024-10-21T19:33:37+02:00
 draft = false
 +++
 
-A brief overview **on what works** for a visual novel and its confirmed working platforms. Linux versions have been tested with Lutris, Wine/Proton and Winetricks following the [Lutris](/visualnovelwiki/linux/lutris) and [Wineprefixes](/visualnovelwiki/linux/wineprefixes) guides.
+A brief overview **on what works** for a visual novel and its confirmed working platforms. Linux versions have been tested with Lutris, Wine/Proton and Winetricks following the [Lutris](/linux/lutris) and [Wineprefixes](/linux/wineprefixes) guides.
 
 * ✅: Verified to work
 * ⚠️: Playable, with some issues

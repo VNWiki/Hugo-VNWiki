@@ -9,10 +9,10 @@ draft = false
 ### Linux
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 8-8](/visualnovelwiki/linux/adding-wine-versions). You need to use the [special codecs script](/visualnovelwiki/linux/special-codecs) for "wmp11"
+> Tested with [Lutris-GE-Proton 8-8](/linux/adding-wine-versions). You need to use the [special codecs script](/linux/special-codecs) for "wmp11"
 
 > [!info] Information
-> Tested with [Lutris 5.13](/visualnovelwiki/linux/adding-wine-versions). You need to use the [wmp11 wineprefix](/visualnovelwiki/linux/wineprefixes)
+> Tested with [Lutris 5.13](/linux/adding-wine-versions). You need to use the [wmp11 wineprefix](/linux/wineprefixes)
 
 #### Lutris
 
@@ -34,4 +34,3 @@ Add locally installed game with these settings:
 * [18+ patch (Steam)](https://patches.nekonyansoft.com/)
 * [18+ patch (GOG)](https://www.gog.com/game/senren_banka_unrated)
 * [Walkthrough](https://forums.fuwanovel.net/topic/22816-senren-banka/)
-* 100% CG save file

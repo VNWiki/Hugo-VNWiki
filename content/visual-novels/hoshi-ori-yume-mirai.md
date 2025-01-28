@@ -11,10 +11,10 @@ draft = false
 #### Lutris
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 7-32](/visualnovelwiki/linux/adding-wine-versions).
+> Tested with [Lutris-GE-Proton 7-32](/linux/adding-wine-versions).
 
 > [!warning] Warning
-> We will be using the Disk installer version (it has two disk images), mount both using [CDEmu](/visualnovelwiki/linux/cdemu).
+> We will be using the Disk installer version (it has two disk images), mount both using [CDEmu](/linux/cdemu).
 
 1. Add locally installed game with these settings:
 
@@ -36,7 +36,7 @@ draft = false
 
 ### Steam Deck
 
-Download version only, [CDEmu](/visualnovelwiki/linux/cdemu) under testing.
+Download version only, [CDEmu](/linux/cdemu) under testing.
 
 ## Links
 
@@ -44,4 +44,3 @@ Download version only, [CDEmu](/visualnovelwiki/linux/cdemu) under testing.
 * [SteamGridDB](https://www.steamgriddb.com/game/5281426)
 * [Walkthrough](https://forums.fuwanovel.net/topic/21841-hoshi-ori-yume-mirai-star-weaving-%E2%98%86-dreaming-of-the-future/)
 * [English patch Github repository](https://github.com/hanabiworks/Hoshi-Ori-Yume-Mirai-Perfect-Edition-English-Translation)
-* 100% CG save file

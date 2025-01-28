@@ -14,4 +14,3 @@ Pixelated fonts. Checked with "Lutris FSHack 7.2" and Windows 10 fonts imported.
 
 * [VNDB](https://vndb.org/v5000)
 * [Walkthrough](https://forums.fuwanovel.net/topic/20753-root-double-before-crime-after-days/?tab=comments#comment-490366)
-* 100% CG save file

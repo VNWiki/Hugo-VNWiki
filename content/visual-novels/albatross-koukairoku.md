@@ -17,7 +17,7 @@ Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click o
 
 #### Lutris
 
-1. Mount the game using [CDEmu](/visualnovelwiki/linux/cdemu) and install wherever you want using the `setup.exe`.
+1. Mount the game using [CDEmu](/linux/cdemu) and install wherever you want using the `setup.exe`.
 2. Add locally installed game with these settings:
 
    * In "Game info", select "Wine" for "Runner"
@@ -33,5 +33,3 @@ Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click o
 ## Links
 
 * [VNDB](https://vndb.org/v3883)
-* Walkthrough
-* 100% CG save file

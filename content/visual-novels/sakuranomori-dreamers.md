@@ -9,7 +9,7 @@ draft = false
 ### Linux / Steam Deck
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 7-43](/visualnovelwiki/linux/adding-wine-versions).
+> Tested with [Lutris-GE-Proton 7-43](/linux/adding-wine-versions).
 
 #### Lutris
 
@@ -33,4 +33,3 @@ draft = false
 
 * [VNDB](https://vndb.org/v18760)
 * [MangaGamer](https://www.mangagamer.com/r18/detail.php?product_code=1174&af=3a123f6214695bfacaa881bd3117c693)
-* 100% CG save file

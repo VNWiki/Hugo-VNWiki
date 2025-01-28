@@ -11,10 +11,10 @@ draft = false
 #### Lutris
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 7-32](/visualnovelwiki/linux/adding-wine-versions).
+> Tested with [Lutris-GE-Proton 7-32](/linux/adding-wine-versions).
 
 > [!warning] Warning
-> If you have the disk version of the game, mount it using [CDEmu](/visualnovelwiki/linux/cdemu). You will need to mount the disk image everytime you want to play.
+> If you have the disk version of the game, mount it using [CDEmu](/linux/cdemu). You will need to mount the disk image everytime you want to play.
 
 1. Add locally installed game with these settings:
 
@@ -32,7 +32,7 @@ draft = false
 
 ### Steam Deck
 
-The same as Linux, but it will only work with the download edition of the game, as [CDEmu](/visualnovelwiki/linux/cdemu) is not supported (or haven’t been tested) for now.
+The same as Linux, but it will only work with the download edition of the game, as [CDEmu](/linux/cdemu) is not supported (or haven’t been tested) for now.
 
 ## Save Data
 
@@ -45,4 +45,3 @@ Put the BGI.gdb file into `C:\fairys\いますぐお兄ちゃんに妹だって�
 * [VNDB](https://vndb.org/v7766)
 * [SteamGridDB](https://www.steamgriddb.com/game/5346059)
 * [English patch Fuwanovel thread](https://forums.fuwanovel.net/topic/24866-studio-frisay-imasugu-onii-chan-ni-imouto-datte-iitai-translation-project-released/)
-* 100% CG save file

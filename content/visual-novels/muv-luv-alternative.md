@@ -34,4 +34,3 @@ Run the [patch installer](https://steamcommunity.com/app/802880/discussions/0/34
 * [Walkthrough](https://forums.fuwanovel.net/topic/19279-muv-luv-alternative/)
 * [Original guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2818455527)
 * [Patch installer link](https://steamcommunity.com/app/802880/discussions/0/3418811381786665974/)
-* 100% CG save file

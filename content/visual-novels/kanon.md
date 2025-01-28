@@ -13,7 +13,7 @@ Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click o
 ### Linux
 
 > [!info] Information
-> Requires to have [JP Locale enabled](/visualnovelwiki/all-platforms/jp-locale).
+> Requires to have [JP Locale enabled](/all-platforms/jp-locale).
 
 #### Lutris
 
@@ -40,4 +40,3 @@ Same as Linux.
 * [VNDB](https://vndb.org/v33)
 * [SteamGridDB](https://www.steamgriddb.com/game/5248619)
 * [Walkthrough](https://forums.fuwanovel.net/topic/2406-kanon/)
-* 100% CG save file

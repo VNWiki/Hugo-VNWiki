@@ -40,7 +40,7 @@ draft = false
 #### Lutris
 
 > [!warning] Warning
-> Both the auto update and manual update does not seem to work correctly in Linux or the Deck. The disc installer for EXE also crashes with [CDEmu](/visualnovelwiki/linux/cdemu).
+> Both the auto update and manual update does not seem to work correctly in Linux or the Deck. The disc installer for EXE also crashes with [CDEmu](/linux/cdemu).
 
 > [!info] Information
 > It is needed to transfer both games from Windows previously installed and updated beforehand. We will use Lutris with the prefix wmp10quartz. It will be needed to import the registry entries of both games into the prefix. Will be needed to use AlphaROMdiE to get past the DRM for physical copies of the game.
@@ -119,4 +119,3 @@ Overwrite "Config.dat" in `<wineprefix>/drive_c/users/<yourusername>/Documents/G
 ## Links
 
 * [VNDB](https://vndb.org/v18783)
-* 100% CG save file

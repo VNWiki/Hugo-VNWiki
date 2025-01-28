@@ -62,5 +62,3 @@ Overwrite the folder contents in `C:\users\<username>\AppData\Roaming\枕\サク
 ## Links
 
 * [VNDB](https://vndb.org/v20431)
-* Walkthrough
-* 100% CG save file

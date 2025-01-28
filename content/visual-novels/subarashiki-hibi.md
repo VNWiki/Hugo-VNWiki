@@ -31,4 +31,3 @@ Put the "BGI.gdb" file inside of the game install folder (usually inside of the 
 * [Steam](https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/)
 * [SteamGridDB](https://www.steamgriddb.com/game/19199)
 * [Walkthrough](https://steamcommunity.com/sharedfiles/filedetails/?id=1127955406)
-* 100% CG save file

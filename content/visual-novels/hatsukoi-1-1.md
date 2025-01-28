@@ -9,10 +9,10 @@ draft = false
 ### Linux
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 7-32](/visualnovelwiki/linux/adding-wine-versions).
+> Tested with [Lutris-GE-Proton 7-32](/linux/adding-wine-versions).
 
 > [!warning] Warning
-> We will be using the disk installer version (it has two disk images), mount it using [CDEmu](/visualnovelwiki/linux/cdemu). You will need to mount the disk image everytime you want to play.
+> We will be using the disk installer version (it has two disk images), mount it using [CDEmu](/linux/cdemu). You will need to mount the disk image everytime you want to play.
 
 Download [the english patch from Tsurezure Scans](https://tsurezurescans.wordpress.com/2018/09/27/hatsukoi-1-1-full-english-patch-main-game-append-scenarios/).
 
@@ -47,4 +47,3 @@ Put the "global.sav" file into `C:\Program Files (x86)\toneworks\Hatsukoi\saveda
 * [SteamGridDB](https://www.steamgriddb.com/game/5353498)
 * [Walkthrough](https://forums.fuwanovel.net/topic/17689-hatsukoi-11/)
 * [Tsurezure Scans' english patch](https://tsurezurescans.wordpress.com/2018/09/27/hatsukoi-1-1-full-english-patch-main-game-append-scenarios/)
-* 100% CG save file

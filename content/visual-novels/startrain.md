@@ -29,6 +29,3 @@ Same as Linux, you will need to transfer the game files from another PC. Run it 
 
 * [VNDB](https://vndb.org/v1024)
 * [DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ004740.html)
-* Patch 1.03 (shouldn’t be needed for the digital version)
-* Walkthrough
-* 100% CG save file

@@ -39,4 +39,3 @@ Overwrite the folder contents in `<wineprefixfolder>/drive_c/users/<username>/Do
 * [SteamGridDB](https://www.steamgriddb.com/game/33910)
 * [Walkthrough](https://forums.fuwanovel.net/topic/706-fatestay-night/)
 * [Lutris auto-installer Github repository](https://github.com/leycec/fsnrnue)
-* 100% CG save file

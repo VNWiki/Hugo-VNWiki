@@ -1,4 +1,4 @@
-baseURL = 'saetron.github.io/visualnovelwiki/'
+baseURL = 'www.vnwiki.xyz/'
 languageCode = 'en-us'
 title = 'Visual Novel Wiki'
 theme = 'hugo-theme-relearn'

@@ -11,7 +11,7 @@ draft = false
 #### Lutris
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 7-32](/visualnovelwiki/linux/adding-wine-versions).
+> Tested with [Lutris-GE-Proton 7-32](/linux/adding-wine-versions).
 
 Add locally installed game with these settings:
 
@@ -50,4 +50,3 @@ Overwrite "sysfile.sav" in the sav folder inside of your game install folder. To
 * [JAST USA](https://jastusa.com/games/jast051/gore-screaming-show) (18+)
 * [+18 patch for Steam version](https://jastusa.com/games/jast051_r18dlc/gore-screaming-show-18+-content-dlc)
 * [Walkthrough](https://forums.fuwanovel.net/topic/25726-gore-screaming-show-in-progress/)
-* 100% CG save file

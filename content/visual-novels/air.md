@@ -35,4 +35,3 @@ LANG=ja_JP.UTF-8 %command%
 * [VNDB](https://vndb.org/v36)
 * [SteamGridDB](https://www.steamgriddb.com/game/5266190)
 * [Walkthrough](https://forums.fuwanovel.net/topic/2383-air/)
-* 100% CG save file

@@ -12,7 +12,7 @@ draft = false
 ### Linux
 
 > [!info] Information
-> Tested with [Lutris-GE-Proton 7-33](/visualnovelwiki/linux/adding-wine-versions).
+> Tested with [Lutris-GE-Proton 7-33](/linux/adding-wine-versions).
 
 #### Lutris
 
@@ -43,4 +43,3 @@ Put the `sysfile3.sav` file into the following folders inside of your prefix `dr
 * [GOG](https://www.gog.com/game/dead_end_aegis)
 * [Steam](https://store.steampowered.com/app/1835830)
 * [Steam (Gaiden)](https://store.steampowered.com/app/1839960/)
-* 100% CG save file

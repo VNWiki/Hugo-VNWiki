@@ -38,4 +38,3 @@ Overwrite the folder contents in `Ayakashibito\save` (game folder).
 * [VNDB](https://vndb.org/v646)
 * [SteamGridDB](https://www.steamgriddb.com/game/5356633)
 * [Walkthrough](https://forums.fuwanovel.net/topic/4131-ayakashibito/)
-* 100% CG save file

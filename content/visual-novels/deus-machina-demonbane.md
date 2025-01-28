@@ -73,5 +73,3 @@ Put the contents of the ZIP file into the following folders inside of your prefi
 * [VNDB](https://vndb.org/v231)
 * [JAST USA](https://jastusa.com/games/np001)
 * [SteamGridDB](https://www.steamgriddb.com/game/21185)
-* Walkthrough
-* 100% CG save file

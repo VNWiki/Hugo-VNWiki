@@ -16,7 +16,7 @@ Follow the Windows guide to [set up Japanese locales](/all-platforms/jp-locale).
 ### Linux / Steam Deck
 
 > [!info] Information
-> Tested with [Lutris 7.21](/visualnovelwiki/linux/adding-wine-versions). You need to use the [wmp10quartz prefix](/visualnovelwiki/linux/wineprefixes)
+> Tested with [Lutris 7.21](/linux/adding-wine-versions). You need to use the [wmp10quartz prefix](/linux/wineprefixes)
 
 #### Lutris
 
@@ -34,4 +34,3 @@ Add locally installed game with these settings:
 * [AppDB](https://appdb.winehq.org/objectManager.php?sClass=version&iId=29024)
 * [SteamGridDB](https://www.steamgriddb.com/game/5263443)
 * [Walkthrough](https://forums.fuwanovel.net/topic/25667-white-album-2-fan-translation-walkthrough/)
-* 100% CG save file

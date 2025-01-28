@@ -88,4 +88,3 @@ Overwrite the folder contents in `<wineprefixfolder>/drive_c/users/<yourusername
 * [JAST USA](https://jastusa.com/games/jast037/full-metal-daemon-muramasa) (18+ uncensored)
 * [GOG](https://www.gog.com/en/game/full_metal_daemon_muramasa) (All ages censored)
 * [Walkthrough](https://forums.fuwanovel.net/topic/25473-full-metal-daemon-muramasa-soukou-akki-muramasa-%E8%A3%85%E7%94%B2%E6%82%AA%E9%AC%BC%E6%9D%91%E6%AD%A3/)
-* 100% CG save file

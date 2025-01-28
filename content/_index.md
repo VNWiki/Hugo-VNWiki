@@ -9,7 +9,9 @@ We're here to guide you through the exciting world of visual novels, ensuring yo
 
 Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your thoughts and help shape the future of this wiki.
 
-{{% button href="/visualnovelwiki/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
+If you find errors or want to expand the Wiki, visit our [Github](https://github.com/VNWiki/vnwiki.github.io/).
+
+{{% button href="/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
 
 > [!warning] Open Beta
 > As this is an Open Beta, you may encounter some bugs. Please report any issues in the #wiki-channel on our Discord.
@@ -19,7 +21,6 @@ If anything is missing, check out the [old wiki on archive.org](https://web.arch
 ## About
 
 * 📄 The VN Compatibility List!
-* 📁 100% Save Files
 * 💽 Basic content parity with VNDB
 * 🧭 Easy access to walkthroughs
 * ⚙️ Known issues section

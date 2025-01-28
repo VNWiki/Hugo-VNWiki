@@ -30,5 +30,4 @@ Located in the "savedata" folder, inside the game install folder.
 
 * [VNDB](https://vndb.org/v29443)
 * [DLsite](https://www.dlsite.com/soft/work/=/product_id/VJ015604.html)
-* [Amazon.jp](https://www.amazon.co.jp/-/dp/B0BHVT6S51)
-* 100% CG save file
+* [Amazon.co.jp](https://www.amazon.co.jp/-/dp/B0BHVT6S51)

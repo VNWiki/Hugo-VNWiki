@@ -53,4 +53,3 @@ Overwrite "SAVEDATA.dat" in `Documents\My Games\mages_steam\STEINS;GATE\eng`
 * [Steam](https://store.steampowered.com/app/412830/STEINSGATE/) (newer version with HD artwork, compatible with Committee of Zero improvement patch)
 * [JAST USA](https://jastusa.com/games/sg001/steinsgate) (older DRM-free version)
 * [Walkthrough](https://steamcommunity.com/sharedfiles/filedetails/?id=2600680431)
-* 100% CG save file
