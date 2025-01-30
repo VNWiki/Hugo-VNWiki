@@ -2,6 +2,7 @@ baseURL = 'www.vnwiki.xyz/'
 languageCode = 'en-us'
 title = 'Visual Novel Wiki'
 theme = 'hugo-theme-relearn'
+enableRobotsTXT = true
 
 [params]
   themeVariant = 'zen-dark'
@@ -10,3 +11,5 @@ theme = 'hugo-theme-relearn'
   disableBreadcrumb = true
   ordersectionsby = 'linktitle'
 
+[sitemap]
+  changeFreq = 'monthly'
