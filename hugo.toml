@@ -1,8 +1,9 @@
 baseURL = 'https://www.vnwiki.xyz/'
 languageCode = 'en-us'
-title = 'Visual Novel Wiki'
+title = 'VN Wiki'
 theme = 'hugo-theme-relearn'
 enableRobotsTXT = true
+enableGitInfo = true
 
 [params]
   themeVariant = 'zen-dark'
@@ -10,6 +11,18 @@ enableRobotsTXT = true
   collapsibleMenu = true
   disableBreadcrumb = true
   ordersectionsby = 'linktitle'
+  subtitle = 'Play Visual Novels anywhere, anytime. On Steam Deck, ROG Ally or your PC.'
+  [params.contact]
+    email = 'info@vnwiki.xyz'
 
 [sitemap]
   changeFreq = 'monthly'
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
