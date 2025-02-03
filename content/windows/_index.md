@@ -1,5 +1,3 @@
-{{ $general := site.GetPage "windows" }}
-
-{{ range $general.RegularPages }}
-
+{{ range .Site.RegularPages }}
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 {{ end }}
