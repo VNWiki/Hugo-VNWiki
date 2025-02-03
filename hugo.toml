@@ -1,4 +1,4 @@
-baseURL = 'www.vnwiki.xyz/'
+baseURL = 'https://www.vnwiki.xyz/'
 languageCode = 'en-us'
 title = 'Visual Novel Wiki'
 theme = 'hugo-theme-relearn'
