@@ -12,8 +12,6 @@ enableGitInfo = true
   disableBreadcrumb = true
   ordersectionsby = 'linktitle'
   subtitle = 'Play Visual Novels anywhere, anytime. On Steam Deck, ROG Ally or your PC.'
-  [params.contact]
-    email = 'info@vnwiki.xyz'
 
 [sitemap]
   changeFreq = 'monthly'
