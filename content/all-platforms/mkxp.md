@@ -1,5 +1,5 @@
 +++
-title = 'mkxp'
+title = 'MKXP'
 date = 2024-10-24T19:23:29+02:00
 draft = false
 +++
