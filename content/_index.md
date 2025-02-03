@@ -11,7 +11,7 @@ Join our [Discord](https://discord.gg/GaEa5Mm2Xr) community to share your though
 
 If you find errors or want to expand the Wiki, visit our [Github](https://github.com/VNWiki/vnwiki.github.io/).
 
-{{% button href="/all-platforms/visual-novel-compatibility-list/" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
+{{% button href="/visual-novels/index" style="info" %}}See the Visual Novel Compatibility List here{{% /button %}}
 
 > [!warning] Open Beta
 > As this is an Open Beta, you may encounter some bugs. Please report any issues in the #wiki-channel on our Discord.
