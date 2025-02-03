@@ -84,7 +84,7 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Subarashiki Hibi \~Furenzoku Sonzai\~                     | ✅      | ✅  | ✅    | ✅         | BGI                   | any             | Lutris 7.21+/Proton 7+      |                         |
 | Baldr Heart + EXE                                         | ✅      | ✅  | ✅    | ⚠️         | NeXAS                 | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 32                 |
 | Full Metal Daemon: Muramasa                               | ✅      | ✅  | ✅    | ✅         | N2System/N4System     | muramasaengine  | Lutris 7.21+/Proton 7+      |                         |
-| AIR                                                       | ✅      | ✅  | ✅    | ✅         | RealLive              | any             | Lutris 7.21+/Proton 7+      |                         |
+| [AIR](/visual-novels/air)                                                       | ✅      | ✅  | ✅    | ✅         | RealLive              | any             | Lutris 7.21+/Proton 7+      |                         |
 | Fate/stay night                                           | ✅      | ✅  | ✅    | ✅         | Kirikiri              | lavfilters      | Lutris 6.21+/Proton 7+      | Note 33                 |
 | Gore Screaming Show                                       | ✅      | ❓  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
 | Hoshi Ori Yume Mirai                                      | ✅      | ✅  | ✅    | ✅         | Siglus Engine         | any             | Lutris GE Proton 7.32+      |                         |
