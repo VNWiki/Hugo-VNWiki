@@ -136,6 +136,7 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Imouto to Kanojo                                          | ✅      | ❓  | ✅    | ✅         | Waffle Engine         | any             | Wine GE 8.25                | Notes 5, 27, 61         |
 | Hanachirasu                                               | ✅      | ❓  | ✅    | ✅         |                       | wmp11quartz     | Lutris 7.2                  | Note 19                 |
 | Kazoku keikaku                                            | ✅      | ❓  | ✅    | ✅         | Ikura GDL (D.O Engine)| Vanilla         | Wine 10                     |                         |
+| [Ima Sugu Onii-chan ni Imouto da tte Iitai!](/visual-novels/ima-sugu-onii-chan-ni-imouto-da-tte-iitai)                | ✅      | ❓  | ✅    | ✅         | BGI/Ethornell         | any             | Proton GE 7.32              |                         |
 
 If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
 

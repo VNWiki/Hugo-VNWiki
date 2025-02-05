@@ -120,6 +120,15 @@ Check [visual novel compatibility list](/visual-novels) to know what prefixes yo
 ## Special tips
 
 > [!info] Info
+> Starting from [Wine 9.22](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.22) (staging) and [Wine 10.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0#wayland-driver) (stable), the native Wayland driver is enabled in default configuration. X11 driver still takes precedence if both are available but you can force its use by unsetting `DISPLAY` environment variable: `env -u DISPLAY wine bin.exe`. For Wine 9.21 and older, you need to run the following command to enable the driver: `wine reg add 'HKEY_CURRENT_USER\Software\Wine\Drivers' /v Graphics /t REG_SZ /d 'x11,wayland'`
+
+> [!info] Info
+> Starting from Wine 10.0 (stable), [a new opt-in FFmpeg-based backend has been introduced](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0#multimedia), as an alternative to the GStreamer backend. It can be enabled by setting the value `DisableGstByteStreamHandler=1` in the `HKCU\Software\Wine\MediaFoundation` registry key.
+
+> [!info] Info
+> A [list of useful registry keys](https://gitlab.winehq.org/wine/wine/-/wikis/Useful-Registry-Keys) is maintained on the official Wine Gitlab repository.
+
+> [!info] Info
 > Do not use lutris 7.2.2 It has video playback issues. Lutris 7-x versions are pretty old at this point so if you want to change to newer versions feel free but it generally works fine and some codecs like mciqtz32 doesn't work with newer versions.
 
 > [!info] Info

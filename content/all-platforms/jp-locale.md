@@ -16,13 +16,13 @@ It’s more cost-efficient to stay with JP encoding and include a program like L
 
 ### Windows
 
-Download [Locale Emulator](https://xupefei.github.io/Locale-Emulator/). That’s all you need.
+[Changing system Locale](https://forums.fuwanovel.moe/topic/1704-how-do-i-change-my-computer-to-japanese-system-locale/) is the recommended way to run Japanese games. [Locale Emulator](https://xupefei.github.io/Locale-Emulator/) might work with some applications though.
 
-Optionally, you can also download the JP Language Pack from the Windows System Settings.
+Optionally, you can also download the JP Language Pack from the Windows System Settings:
 
-1. Go to System Settings > Languages > Click Add a language.
-2. Select 日本語 and check Language Pack.
-3. Uncheck Text-to-speech, Speech Recognition and Handwriting, then click Install.
+1. Go to "System Settings", "Languages" and click "Add a language".
+2. Select "日本語" and check "Language Pack".
+3. Uncheck "Text-to-speech", "Speech Recognition" and "Handwriting" then click "Install".
 
 ### Linux / Steam Deck
 
