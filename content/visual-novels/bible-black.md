@@ -1,5 +1,5 @@
 +++
-title = Bible Black -La noche de walpurgis-
+title = 'Bible Black -La noche de walpurgis-'
 date = 2025-02-05T20:11:42+01:00
 draft = false
 +++
