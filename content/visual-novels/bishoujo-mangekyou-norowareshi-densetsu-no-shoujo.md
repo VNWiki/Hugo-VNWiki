@@ -1,5 +1,5 @@
 +++
-title = Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-
+title = 'Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-'
 date = 2025-02-05T20:11:58+01:00
 draft = false
 +++
