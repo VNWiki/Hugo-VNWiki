@@ -32,11 +32,11 @@ And so, you can have multiple wine prefixes. This is what we’re going to do.
 Here are the main wineprefixes we’ll be needing to use for most cases.
 
 - proton_ge
-- wmp11quartz
 - vanilla
 
 Some other prefixes for less common cases:
 
+- wmp11quartz
 - lavfilters
 - mciqtz32
 - ffdshow
@@ -44,6 +44,10 @@ Some other prefixes for less common cases:
 - xact
 - quartz_dx
 - wmp10quartz
+
+Usually the best course of action is trying to run the VN with proton_ge and vanilla prefixes since there are high chances that it will run fine with one of these two. If you have issues then try the other prefixes.
+
+Make sure to run both [Japanese Locale](/all-platforms/jp-locale) and Fonts in the prefix if you have issues with text display.
 
 ### Steps
 
@@ -61,8 +65,8 @@ Some other prefixes for less common cases:
     * **Prefix architecture**: **64bit** (**32bit** for wmp10 & wmp10quartz)
 
     Runner Options:
-    * **vanilla** Prefix: **Wine 9.18** (There was a big update in video playback with this version). Install from [protonUp-qtCodecs]({{< ref "protonup" >}}) Kron4ek Builds
-    * **proton_ge** Prefix: **Proton-ge 9.13** (Or newer versions). Install from [protonUp-qtCodecs]({{< ref "protonup" >}}) Select Steam and install Proton-ge it will appear in Lutris after restarting.
+    * **vanilla** Prefix: **Wine 10**. Install from [protonUp-qt]({{< ref "protonup" >}}) Kron4ek Builds
+    * **proton_ge** Prefix: **Proton-ge 9.13** (Or newer versions). Install from [protonUp-qt]({{< ref "protonup" >}})
     * **Others**: **Lutris 7.2** (default) (Do not pick Lutris 7.2.2 It has issues with video playback). Disable DXVK for this case.
     
 
@@ -93,7 +97,7 @@ Some other prefixes for less common cases:
 * **mciqtz32** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh mciqtz32`
 
     > [!info] Info
-    > mciqtz32 is used for VNs in Liarsoft and YU-RIS engine
+    > liarsoftengine. mciqtz32 is used for VNs in Liarsoft and YU-RIS engine
 
 * **ffdshow** (64bit): `winetricks ffdshow`
 
@@ -110,7 +114,7 @@ To install, place your fonts in **your_wineprefix/drive_c/Windows/Fonts**. This 
     
 Great! All the wineprefixes are now setup
 
-Check [visual novel compatibility list](/all-platforms/visual-novel-compatibility-list) to know what prefixes you need to utilize for each game. If the game is not in the list try prefixes for other games using the same engine or developer. If can't find anything try proton-ge as a good first generic prefix.
+Check [visual novel compatibility list](/visual-novels) to know what prefixes you need to utilize for each game. If the game is not in the list try prefixes for other games using the same engine or developer. If can't find anything try proton-ge as a good first generic prefix.
 
 
 ## Special tips
