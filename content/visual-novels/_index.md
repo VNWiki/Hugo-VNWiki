@@ -29,7 +29,7 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Maitetsu Last Run!                                        | ✅      | ❓  | ✅    | ❓         | KiriKiri              | wmp11           | Proton GE 7.31+             | Note 8                  |
 | Tsukihime -A piece of blue glass moon-                    | ✅      | ✅  | ✅    | ✅         | Kirikiri              | N/A             | N/A                         |                         |
 | Gnosia                                                    | ✅      | ❓  | ✅    | ❓         |                       | N/A             | Proton GE 8-6               |                         |
-| Forest                                                    | ✅      | ❓  | ✅    | ❓         | codeX RScript         | mciqtz32        | Lutris 7.21+/Proton 7+      | Note 9                  |
+| Forest                                                    | ✅      | ❓  | ✅    | ❓         | codeX RScript         | mciqtz32/vanilla| Lutris 7.21+/Wine 10        | Note 9                  |
 | Harmonia                                                  | ✅      | ✅  | ✅    | ✅         | Siglus Engine         | lavfilters      | Lutris 7.21+/Proton 7+      |                         |
 | G-Senjou no Maou - The Devil on G-String                  | ✅      | ✅  | ✅    | ✅         | Kirikiri              | wmp10quartz     | Lutris 7.21+/Proton 7+      |                         |
 | Utawarerumono: Prelude to the Fallen                      | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.21+/Proton 7+      |                         |
@@ -57,7 +57,7 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Baldr Sky                                                 | ✅      | ✅  | ✅    | ✅         |                       | lavfilters      | Lutris 7.21+/Proton 7+      | Note 17                 |
 | Sabbath of the Witch                                      | ✅      | ✅  | ✅    | ✅         | Kirikiri              | wmp11           | Lutris 7.21+/Proton 7+      | Note 7, 8, 18           |
 | Cyanotype Daydream                                        | ✅      | ✅  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.21+/Proton 7+      |                         |
-| [White Album 2 Introductory Chapter & Closing Chapter](/visual-novels/white-album-2)      | ✅      | ✅  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.21+/Proton 7+      | Notes 19, 20, 21        |
+| [White Album 2 Introductory Chapter & Closing Chapter](/visual-novels/white-album-2)      | ✅      | ✅  | ✅    | ✅| | wmp10quartz/Vanilla         | Lutris 7.21/Wine 10     | Notes 19, 20, 21        |
 | Fruit of Grisaia                                          | ✅      | ✅  | ⚠️    | ⚠️         | CatSystem2            | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 22                 |
 | Labyrinth of Grisaia                                      | ✅      | ✅  | ⚠️    | ⚠️         | CatSystem2            | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 22                 |
 | Eden of Grisaia                                           | ✅      | ✅  | ⚠️    | ⚠️         | CatSystem2            | wmp10quartz     | Lutris 7.21+/Proton 7+      | Note 22                 |
@@ -96,8 +96,8 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Otome wa Boku ni Koishiteru                               | ✅      | ❓  | ✅    | ✅         |                       | wmp10quartz     | Lutris 7.2+                 |                         |
 | [Sakura no Toki](/visual-novels/sakura-no-toki)                                            | ✅      | ❓  | ✅    | ✅         | Artemis               | artemisengine   | Lutris 7.2+                 | Note 34                 |
 | Sakura no Uta                                             | ✅      | ❓  | ✅    | ✅         | BGI                   | lavfilters      | Lutris 7.2+/Proton GE 8-13+ | Notes 5, 33, 35         |
-| [Albatross Koukairoku](/visual-novels/albatross-koukairoku)                                      | ✅      | ✅  | ✅    | ✅         | codeX RScript         | liarsoftengine  | Lutris 7.2+                 | Note 9                  |
-| [Gahkthun of the Golden Lightning -What a Radiant Brave-](/visual-novels/gahkthun)   | ✅      | ✅  | ✅    | ✅         | codeX RScript         | liarsoftengine  | Lutris 7.2+                 | Note 9                  |
+| [Albatross Koukairoku](/visual-novels/albatross-koukairoku)                                      | ✅      | ✅  | ✅    | ✅         | codeX RScript         | liarsoftengine/vanilla  | Lutris 7.2/Wine 10                 | Note 9                  |
+| [Gahkthun of the Golden Lightning -What a Radiant Brave-](/visual-novels/gahkthun)   | ✅      | ✅  | ✅    | ✅         | codeX RScript         | liarsoftengine/vanilla  | Lutris 7.2/Wine 10      | Note 9                  |
 | [Ayakashibito](/visual-novels/ayakashibito)                                              | ✅      | ✅  | ✅    | ✅         |                       | any             | Lutris 7.2+                 | Note 36                 |
 | Kara no Shoujo                                            | ✅      | ✅  | ✅    | ✅         | InnocentGrey/Kirikiri | any             | any                         |                         |
 | Kara no Shoujo (HD)                                       | ✅      | ✅  | ✅    | ✅         | InnocentGrey          | wmp11quartz     | Lutris 7.2+ Proton 7+       | Notes 37, 38            |
@@ -130,10 +130,12 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Shizuku 1996                                              | ✅      | ❓  | ✅    | ✅         |                       | wine-ge         | wine GE 8.25                | Note 5                  |
 | Shizuku DVD 2004                                          | ✅      | ❓  | ✅    | ✅         |                       | wmp11quartz     | Lutris 7.2                  | Notes 5, 18, 30         |
 | Mizuchi no Miko                                           | ✅      | ❓  | ✅    | ✅         | codeX                 | proton-ge       | Proton GE 9.13              | Notes 5, 60             |
-| Moon Ghost                                                | ✅      | ❓  | ✅    | ✅         | Kirikiri              | proton 9 + wmp11| Proton GE 9.13              | Note 5, 7, 18           |
-| Otome Sekai no Arukikata                                  | ✅      | ❓  | ✅    | ✅         | Kirikiri              | proton 9 + wmp11| Proton GE 9.13              | Notes 5, 7, 18          |
+| Moon Ghost                                                | ✅      | ❓  | ✅    | ✅         | Kirikiri              | proton 9 + wmp11/Vanilla | Proton GE 9.13/Wine10 | Note 5, 7, 18        |
+| Otome Sekai no Arukikata                                  | ✅      | ❓  | ✅    | ✅         | Kirikiri              | proton 9 + wmp11/Vanilla | Proton GE 9.13/Wine10 | Notes 5, 7, 18       |
 | Ren'ai Jakusha na Osananajimi... (Renjaku)                | ✅      | ❓  | ✅    | ✅         | Waffle Engine         | wmp11quartz     | Lutris 7.2                  | Notes 5, 18, 19, 27, 61 |
 | Imouto to Kanojo                                          | ✅      | ❓  | ✅    | ✅         | Waffle Engine         | any             | Wine GE 8.25                | Notes 5, 27, 61         |
+| Hanachirasu                                               | ✅      | ❓  | ✅    | ✅         |                       | wmp11quartz     | Lutris 7.2                  | Note 19                 |
+| Kazoku keikaku                                            | ✅      | ❓  | ✅    | ✅         | Ikura GDL (D.O Engine)| Vanilla         | Wine 10                     |                         |
 
 If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
 
