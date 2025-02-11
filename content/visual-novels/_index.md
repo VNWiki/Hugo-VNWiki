@@ -137,6 +137,8 @@ A brief overview **on what works** for a visual novel and its confirmed working 
 | Hanachirasu                                               | ✅      | ❓  | ✅    | ✅         |                       | wmp11quartz     | Lutris 7.2                  | Note 19                 |
 | Kazoku keikaku                                            | ✅      | ❓  | ✅    | ✅         | Ikura GDL (D.O Engine)| Vanilla         | Wine 10                     |                         |
 | [Ima Sugu Onii-chan ni Imouto da tte Iitai!](/visual-novels/ima-sugu-onii-chan-ni-imouto-da-tte-iitai)                | ✅      | ❓  | ✅    | ✅         | BGI/Ethornell         | any             | Proton GE 7.32              |                         |
+| [Kyokou Eiyuu GinGaia](/visual-novels/kyokou-eiyuu-gingaia) | ✅      | ❓  | ✅    | ✅         | AIRNovel (Adobe AIR)  | Vanilla         | Wine 10 |                         |
+
 
 If you are experiencing font issues, be sure to install the Windows Japanese Fonts. Common examples are MS Gothic, Mincho, etc.
 
