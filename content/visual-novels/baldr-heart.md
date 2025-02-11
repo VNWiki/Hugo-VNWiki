@@ -61,7 +61,7 @@ draft = false
 
 3. Install registry files
 
-   Download [BALDR Heart + EXE registry file archive](https://web.archive.org/web/20221206045303mp_/https://www.visualnovelwiki.org/tutorials/v18783/baldr_heart_plus_exe_registry_32bit.zip) and extract it.
+   Download [BALDR Heart + EXE registry file archive](https://pixeldrain.com/u/9tPKrzFK) and extract it.
    Select "BALDR HEART", click the Wine bottle on the bottom and click "Wine registry".
    Import the registry file we extracted before and click on "Registry" and "Import Registry File".
    Registry keys should have been added to `HKEY_CURRENT_USER/Software/GIGA/BALDRHEART`
