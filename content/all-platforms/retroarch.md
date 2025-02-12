@@ -29,7 +29,7 @@ PC-98 games can easily be played through RetroArch thanks to the [np2kai libretr
    * for "Floppy Seek Sound", select "OFF"
    * for "Volume Floppy Seek", select "0"
    * for "Volume Beep", select "0"
-   * for "Use mouse or touchpanel to input mouse", select "ON" if you want to play with games using a mouse
+   * for "Use mouse or touchpanel to input mouse", select "ON" if you want to play games that need a mouse
    * for "Joypad D-pad to Mouse/Keyboard/Joypad Mapping", select "Manual Keyboard"
 
 These settings can be tweaked further if some games require a different configuration. More information can be found in [this guide](https://gang-fight.com/projects/98faq/) and on the [official libretro core documentation](https://docs.libretro.com/library/neko_project_ii_kai/).

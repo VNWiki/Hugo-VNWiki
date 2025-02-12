@@ -13,7 +13,7 @@ draft = false
 > [!info] Information
 > Requires Windows 7 SP1 or higher, Visual C++ 2015 Redistributable (x86) and Microsoft .NET Framework 4.7 or higher installed.
 
-[Download](https://github.com/FlashpointProject/FlashpointComponentTools/latest) and run the installer.
+[Download](https://github.com/FlashpointProject/FlashpointComponentTools/releases) and run the installer.
 
 ### Linux
 

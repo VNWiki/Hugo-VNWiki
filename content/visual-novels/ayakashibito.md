@@ -8,7 +8,7 @@ draft = false
 
 ### Windows
 
-Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click on a game and choose "Run" in the "Locale Emulator" section. Then, run the `aya.bat` included with the game to set the registry key to run the game.
+Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click on the game and choose "Run" in the "Locale Emulator" section. Then, run the `aya.bat` included to set the needed registry key.
 
 ### Linux/Steam Deck
 

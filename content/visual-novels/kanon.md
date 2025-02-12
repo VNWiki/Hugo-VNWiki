@@ -8,7 +8,7 @@ draft = false
 
 ### Windows
 
-Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click on a game and choose "Run" in the "Locale Emulator" section.
+Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click on the game and choose "Run" in the "Locale Emulator" section.
 
 ### Linux
 
