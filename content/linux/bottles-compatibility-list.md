@@ -12,61 +12,71 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 * ❌: Broken
 * N/A: Not applicable
 
-| Game                                  | State | Configuration                                                           | Runner    | Notes                                             |
-|---------------------------------------|-------|-------------------------------------------------------------------------|-----------|---------------------------------------------------|
-| Taimanin Asagi 0                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Flowers                               | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 2 and note 1                                |
-| Beat Angel Escalayer Reboot           | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
-| Sharin no Kuni                        | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 4                                     |
-| Taimanin Asagi 3                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5 and workaround 6                    |
-| Yotsunoha                             | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 3                                           |
-| School Days                           | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 6                                           |
-| World End Economica (series)          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
-| Fate/Stay Night [Realta Nua]          | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5                                     |
-| Coμ                                   | ✅    | [lavfilters-j-32](/texts/lavfilters-j-32.yml)           | Caffe 7.7 | Tweak 1, 4, 5                                     |
-| Hanachirasu                           | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5, 24                                       |
-| Mahotsukai no Yoru                    | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4                                        |
-| ef - a fairy tale of the two          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
-| Baldr Sky                             | ✅    | [lavfilters-micro-gdi](/texts/lavfilters-micro-gdi.yml) | Wine 5.5  | Tweak 2 or workaround 4                           |
-| Ourai no Gahkthun                     | ⚠️    | any                                                                     | Caffe 7.7 | Note 1                                            |
-| Starless                              | ✅    | [lavfilters-new](/texts/lavfilters-new.yml)             | Wine 8.15 | Tweak 3, 4, 13 or workaround 14                   |
-| Tomoyo After                          | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 3, 10 or workaround 14                   |
-| Subarashiki Hibi                      | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
-| Koutetsu no Majo Annerose             | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5                                     |
-| Shuffle                               | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
-| Planetarian                           | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Kara no Shoujo                        | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 4, 5                                        |
-| G-senjou no Maou                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 3                                           |
-| Taimanin Asagi Premium Box            | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 4, 5                                        |
-| Dra+koi                               | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Ever17                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3                                        |
-| Discipline                            | ⚠️    | [directmusic](/texts/directmusic.yml)                   | Caffe 7.7 | Tweak 3, 11, 12 and workaround 3                  |
-| Bible Black                           | ⚠️    | [directmusic](/texts/directmusic.yml)                   | Caffe 7.7 | Tweak 3, 11, 12 and workaround 3                  |
-| Cartagra                              | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
-| Sengoku Rance                         | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3 and note 1                                |
-| Rewrite                               | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1 and note 1                                |
-| Saya no Uta                           | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
-| Higanbana no Saku Yoru ni (series)    | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Tenioha! : Girls Can Be Pervy Too!    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
-| Bunny Black                           | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Sono Hanabira ni Kuchizuke o (series) | ✅    | any                                                                     | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
-| Little Busters                        | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 3, 10 or workaround 14                   |
-| Clannad                               | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1 and note 1                                |
-| Fata Morgana no Yakata                | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
-| Deus Machina Demonbane                | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
-| Imouto Paradise (series)              | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
-| eden*                                 | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
-| Baldr Force                           | ⚠️    | [lavfilters-j-bfse](/texts/lavfilters-j-bfse.yml)       | Wine 8.15 | Tweak 1, 3, 13, 16 and note 2                     |
-| Higurashi no Naku Koro ni (series)    | ✅    | ❓                                                                      | Caffe 7.7 |                                                   |
-| Dies Irae                             | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
-| Grisaia no Kajitsu                    | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
-| Shabura Rental                        | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 15                                       |
-| Duel Savior                           | ✅    | [lavfilters-quartz-j](/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
-| Cosmos no Sora ni                     | ✅    | any                                                                     | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
-| Kanon                                 | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| Maitetsu                              | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1                                           |
-| Kana -Little Sister-                  | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
-| Rance VI: The Collapse of Zeth        | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
+| Game                                                                            | State | Configuration                                           | Runner    | Notes                                             |
+|---------------------------------------------------------------------------------|-------|---------------------------------------------------------|-----------|---------------------------------------------------|
+| [Taimanin Asagi ZERO](https://vndb.org/r61125)                                  | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| Flowers -Le volume sur printemps-                                               | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 2 and note 1                                |
+| [Choukou Tenshi Escalayer](https://vndb.org/r58562)                             | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
+| [Sharin no Kuni](https://vndb.org/r2263)                                        | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 4                                     |
+| [Taimanin Asagi 3](https://vndb.org/r45821)                                     | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5 and workaround 6                    |
+| [Yotsunoha](https://vndb.org/r56441)                                            | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 3                                           |
+| [School Days](https://vndb.org/r21174)                                          | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 6                                           |
+| [World End Economica Episode 1](https://vndb.org/r55944)                        | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
+| [World End Economica Episode 2](https://vndb.org/r55945)                        | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
+| [World End Economica Episode 3](https://vndb.org/r55946)                        | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
+| [Fate/Stay Night [Realta Nua]](https://vndb.org/r34896)                         | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5                                     |
+| [Coμ](https://vndb.org/r24672)                                                  | ✅    | [lavfilters-j-32](/texts/lavfilters-j-32.yml)           | Caffe 7.7 | Tweak 1, 4, 5                                     |
+| [Hanachirasu](https://vndb.org/r15330)                                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5, 24                                       |
+| [Mahoutsukai no Yoru](https://vndb.org/r43395)                                  | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4                                        |
+| ef - a fairy tale of the two                                                    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
+| [Baldr Sky](https://vndb.org/r46946)                                            | ✅    | [lavfilters-micro-gdi](/texts/lavfilters-micro-gdi.yml) | Wine 5.5  | Tweak 2 or workaround 4                           |
+| [Ourai no Gahkthun](https://vndb.org/r34979)                                    | ⚠️    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Note 1                                            |
+| [Starless](https://vndb.org/r37542)                                             | ✅    | [lavfilters-new](/texts/lavfilters-new.yml)             | Wine 8.15 | Tweak 3, 4, 13 or workaround 14                   |
+| [Tomoyo After](https://vndb.org/r1476)                                          | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 10 and workaround 19                     |
+| Subarashiki Hibi                                                                | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
+| [Koutetsu no Majo Annerose](https://vndb.org/r67010)                            | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5                                     |
+| Shuffle                                                                         | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
+| Planetarian                                                                     | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| Kara no Shoujo                                                                  | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 4, 5                                        |
+| G-senjou no Maou                                                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 3                                           |
+| [Taimanin Asagi](https://vndb.org/r64644)                                       | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 4, 5                                        |
+| [Dra+koi](https://vndb.org/r5127)                                               | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| Ever17                                                                          | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3                                        |
+| [DISCIPLINE -The record of a Crusade-](https://vndb.org/r96)                    | ⚠️    | [directmusic](/texts/directmusic.yml)                   | Caffe 7.7 | Tweak 3, 11, 12 and workaround 3                  |
+| [Bible Black -La noche de walpurgis-](https://vndb.org/r183)                    | ⚠️    | [directmusic](/texts/directmusic.yml)                   | Caffe 7.7 | Tweak 3, 11, 12 and workaround 3                  |
+| [Cartagra ~Tsuki Kurui no Yamai~](https://vndb.org/r1518)                       | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
+| Sengoku Rance                                                                   | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3 and note 1                                |
+| [Rewrite](https://vndb.org/r46419)                                              | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1 and note 1                                |
+| [Saya no Uta](https://vndb.org/r26763)                                          | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
+| [Saya no Uta](https://vndb.org/r65398)                                          | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 26                                          |
+| [Higanbana no Saku Yoru ni - Dai Ichi Ya](https://vndb.org/r15597)              | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| [Higanbana no Saku Yoru ni - Dai Ni Ya](https://vndb.org/r21291)                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| [Tenioha! ~Onna no Ko Datte Honto wa Ecchi da yo?~](https://vndb.org/r54685)    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
+| [BUNNYBLACK](https://vndb.org/r38810)                                           | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| [Sono Hanabira ni Kuchizuke o](https://vndb.org/r1844)                          | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
+| [Sono Hanabira ni Kuchizuke o: Watashi no Ouji-sama](https://vndb.org/r11737)   | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
+| Little Busters                                                                  | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 3, 10 or workaround 14                   |
+| [Clannad](https://vndb.org/r430)                                                | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1 and note 1                                |
+| [Fata Morgana no Yakata](https://vndb.org/r74566)                               | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
+| [Deus Machina Demonbane](https://vndb.org/r12976)                               | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
+| [Imouto Paradise!](https://vndb.org/r25016)                                     | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
+| [Imouto Paradise! 2](https://vndb.org/r45596)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
+| [Imouto Paradise! 3](https://vndb.org/r63781)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15 and note 3                     |
+| [eden* They were only two, on the planet.](https://vndb.org/r35710)             | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
+| [Baldr Force](https://vndb.org/r59591)                                          | ⚠️    | [lavfilters-j-bfse](/texts/lavfilters-j-bfse.yml)       | Wine 8.15 | Tweak 1, 3, 13, 16 and note 2                     |
+| [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    |                                                         | Caffe 7.7 |                                                   |
+| [Dies irae ~Acta est Fabula~](https://vndb.org/r50485)                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
+| Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
+| [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 15                                       |
+| [Duel Savior](https://vndb.org/r23026)                                          | ✅    | [lavfilters-quartz-j](/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
+| [Cosmos no Sora ni](https://vndb.org/r116459)                                   | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
+| [Kanon](https://vndb.org/r86553)                                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
+| [Maitetsu](https://vndb.org/r45598)                                             | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1                                           |
+| [Kana ~Imouto~](https://vndb.org/r37526)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
+| [Kana ~Imouto~](https://vndb.org/r34990)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
+| [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
+| [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 17                                       |
+| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 17 and workaround 15, 16, 17, 18, 19     |
 
 ## Tweaks
 
@@ -91,10 +101,23 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 19. Install Mangohud and add these commands/environment variables as a launch command in your executable shortcut settings if a game runs at a really high framerate: `MANGOHUD=1 MANGOHUD_CONFIG=no_display,fps_limit=60 DXVK_HUD=1` or `MANGOHUD_CONFIG=no_display,fps_limit=30,vsync=3,gl_vsync=1 mangohud --dlsym %command%`
 20. Import [this registry file](/texts/wine_breeze_theme.reg) using the registry editor (under "Tools", in your bottle settings) to change the Windows theme to a more modern one (runners usually come with a similar theme by default)
 21. Change runner/DXVK version
-22. Install GPU-related dependencies for your operating system to fix some crashes or performance issues. Example for Arch Linux: `pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader cuda` (Nvidia) / `pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader` (AMD)
+22. Install GPU-related dependencies for your operating system to fix some crashes or performance issues.
+{{< tabs >}}
+{{% tab title="Nvidia" %}}
+```
+sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader cuda opencl-nvidia lib32-opencl-nvidia
+```
+{{% /tab %}}
+{{% tab title="AMD" %}}
+```
+sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+```
+{{% /tab %}}
+{{< /tabs >}}
 23. Add `WINEDEBUG=+wgl %command% &> wine.log` as a launch command in your executable shortcut settings (it will create a log file at the executable location)
 24. Install `quartz` with the special codec script, through Bottles or Winetricks
 25. Install `mciqtz32` and `quartz2` with the special codec script
+26. Install `xact` through Bottles or Winetricks
 
 ## Workarounds
 
@@ -105,25 +128,34 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 5. Run the game by changing the desktop resolution during gameplay only: `nvidia-settings --assign=CurrentMetaMode="800x600" && bottles-cli run -p game -b 'BOTTLE' && nvidia-settings --assign=CurrentMetaMode="1920x1080"` (Nvidia GPUs on Xorg only)
 6. On GNOME, toggle fullscreen mode with a keyboard shortcut (you have to configure it in the GNOME setting) if the game doesn't start in fullscreen
 7. Extract audio files from the audio CD, rename and move them into the game directory
-8. Use a 32 bit prefix
+8. Use a 32-bit prefix
 9. If you get a "Some files didn't install properly" error message when running a game executable, don't put special characters in its installation path
 10. After updating Bottles, Bottles "Virtual desktop" settings can conflict with program launch options so you'll have to edit your `bottle.yml` to fix that
 11. Revert to the `sdl` package from `sdl12-compat` using your package manager
 12. Use an old version of Lutris (like 0.5.9.1) instead
 13. Run `touch DPLogViewer.ade` and `touch DPSACT2.ade` from a terminal inside the game directory to avoid slow menu transition while in-game (seems [common for AliceSoft games](https://haniwa.technology/sengoku-wine.html))
 14. Use [lavfilters](/texts/lavfilters.yml)/[lavfilters-j](/texts/lavfilters-j.yml) then switch to [lavfilters-new](/texts/lavfilters-new.yml)/[lavfilters-j-new](/texts/lavfilters-j-new.yml) if you encounter any issues
+15. Rename main executable extension from `.EXE` to `.exe`
+16. Backup your saves regularly.
+17. Edit "GAMEEXE.INI" and remove `#KOEREPLAYICON.NAME = "koeicon"` if you're using version 1.2 of the patch to avoid getting an error at the start.
+18. Multiple actions can lead to a crash (no crashes with Wine 10.0 stable):
+   * Quitting the game from the right-click menu (press Alt+F4 instead).
+   * Loading a save, made during a choice, from the main menu (start New Game and load your save from the right-click menu).
+   * Loading saves while in windowed mode (use fullscreen mode instead)
+19. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration"), run the game then reenable these options. It should avoid showing the GNOME bar while allowing for window manipulation.
 
 ## Notes
 
 1. Movies don't play
 2. Game starts in windowed mode
+3. No sound during opening playback
+4. Use the Windows version of patch with Wine
 
 ## Game-specific information
 
-* "Saya no Uta" remaster requires `xact`
-* There's a [mod](https://vndb.org/r116459) for "Cosmos no Sora ni". Even though it has a GNU/Linux native version, the instructions (tweaks and workarounds) are made for the Windows version of the patch under Wine
-* "Imouto Paradise 3" doesn't have sound during opening playback
-* "Kana -Little Sister-" remake uses the same configuration
+* "Kanon" was tested with the "Ultimate Voice Patch" 3.0 and the optional 18+ patch applied.
+* "One" was tested with [English patch 1.5](https://web.archive.org/web/20140911031019/http://akane.is.moelicious.be/down.htm) (the ["Eternal patch"](https://vndb.org/r75159) needs Mono/.NET to run).
+* "AIR" was tested with [Gao Gao Translations' English patch](https://gaogaotranslation.wordpress.com/) 1.0 and 1.2.
 
 ## Suggested Wine versions
 
