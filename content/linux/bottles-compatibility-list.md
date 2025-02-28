@@ -30,9 +30,9 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Mahoutsukai no Yoru](https://vndb.org/r43395)                                  | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4                                        |
 | ef - a fairy tale of the two                                                    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | [Baldr Sky](https://vndb.org/r46946)                                            | ✅    | [lavfilters-micro-gdi](/texts/lavfilters-micro-gdi.yml) | Wine 5.5  | Tweak 2 or workaround 4                           |
-| [Ourai no Gahkthun](https://vndb.org/r34979)                                    | ⚠️    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Note 1                                            |
+| [Ourai no Gahkthun](https://vndb.org/r34979)                                    | ⚠️    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Note 1                                            |
 | [Starless](https://vndb.org/r37542)                                             | ✅    | [lavfilters-new](/texts/lavfilters-new.yml)             | Wine 8.15 | Tweak 3, 4, 13 or workaround 14                   |
-| [Tomoyo After](https://vndb.org/r1476)                                          | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 10 and workaround 19                     |
+| [Tomoyo After](https://vndb.org/r1476)                                          | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 10 and workaround 18                     |
 | Subarashiki Hibi                                                                | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
 | [Koutetsu no Majo Annerose](https://vndb.org/r67010)                            | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5                                     |
 | Shuffle                                                                         | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
@@ -53,8 +53,8 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Higanbana no Saku Yoru ni - Dai Ni Ya](https://vndb.org/r21291)                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | [Tenioha! ~Onna no Ko Datte Honto wa Ecchi da yo?~](https://vndb.org/r54685)    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
 | [BUNNYBLACK](https://vndb.org/r38810)                                           | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| [Sono Hanabira ni Kuchizuke o](https://vndb.org/r1844)                          | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
-| [Sono Hanabira ni Kuchizuke o: Watashi no Ouji-sama](https://vndb.org/r11737)   | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
+| [Sono Hanabira ni Kuchizuke o](https://vndb.org/r1844)                          | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
+| [Sono Hanabira ni Kuchizuke o: Watashi no Ouji-sama](https://vndb.org/r11737)   | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
 | Little Busters                                                                  | ✅    | [lavfilters-j-new](/texts/lavfilters-j-new.yml)         | Wine 8.15 | Tweak 1, 3, 10 or workaround 14                   |
 | [Clannad](https://vndb.org/r430)                                                | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1 and note 1                                |
 | [Fata Morgana no Yakata](https://vndb.org/r74566)                               | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
@@ -69,14 +69,14 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
 | [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 15                                       |
 | [Duel Savior](https://vndb.org/r23026)                                          | ✅    | [lavfilters-quartz-j](/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
-| [Cosmos no Sora ni](https://vndb.org/r116459)                                   | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
+| [Cosmos no Sora ni](https://vndb.org/r116459)                                   | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
 | [Kanon](https://vndb.org/r86553)                                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | [Maitetsu](https://vndb.org/r45598)                                             | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1                                           |
 | [Kana ~Imouto~](https://vndb.org/r37526)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
 | [Kana ~Imouto~](https://vndb.org/r34990)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
-| [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 17                                       |
-| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla](/texts/lavfilters.yml)                        | Caffe 7.7 | Tweak 1, 17 and workaround 15, 16, 17, 18, 19     |
+| [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
+| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla](/texts/vanilla-air.yml)                       | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
 
 ## Tweaks
 
@@ -138,11 +138,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 15. Rename main executable extension from `.EXE` to `.exe`
 16. Backup your saves regularly.
 17. Edit "GAMEEXE.INI" and remove `#KOEREPLAYICON.NAME = "koeicon"` if you're using version 1.2 of the patch to avoid getting an error at the start.
-18. Multiple actions can lead to a crash (no crashes with Wine 10.0 stable):
-   * Quitting the game from the right-click menu (press Alt+F4 instead).
-   * Loading a save, made during a choice, from the main menu (start New Game and load your save from the right-click menu).
-   * Loading saves while in windowed mode (use fullscreen mode instead)
-19. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration"), run the game then reenable these options. It should avoid showing the GNOME bar while allowing for window manipulation.
+18. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration"), run the game then reenable these options. It should avoid showing the GNOME bar while allowing for window manipulation.
 
 ## Notes
 
@@ -186,6 +182,7 @@ If you don't know which Wine/Proton version might be the best for a particular g
 * Wine 6.0.1
 * Wine 9.14
 * Wine 9.18
+* Wine 10.0 (stable)
 * Wine-GE-Proton 8-5
 
 ## Suggested dependencies
