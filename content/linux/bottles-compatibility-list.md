@@ -67,7 +67,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    | [vcredist-higurashi](/texts/vcredist-higurashi.yml)     | Caffe 7.7 | Tweak 1                                           |
 | [Dies irae ~Acta est Fabula~](https://vndb.org/r50485)                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
-| [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 15                                       |
+| [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-lite-j](/texts/lavfilters-lite-j.yml)       | Caffe 7.7 | Tweak 1, 15, 27 and workaround 20                                       |
 | [Duel Savior](https://vndb.org/r23026)                                          | ✅    | [lavfilters-quartz-j](/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
 | [Cosmos no Sora ni](https://vndb.org/r116459)                                   | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
 | [Kanon](https://vndb.org/r86553)                                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
@@ -123,6 +123,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 24. Install `quartz` with the special codec script, through Bottles or Winetricks
 25. Install `mciqtz32` and `quartz2` with the special codec script
 26. Install `xact` through Bottles or Winetricks
+27. Copy `ms-pgothic.ttf` from the patch directory to `Windows/Fonts`
 
 ## Workarounds
 
@@ -145,6 +146,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 17. Edit "GAMEEXE.INI" and remove `#KOEREPLAYICON.NAME = "koeicon"` if you're using version 1.2 of the patch to avoid getting an error at the start.
 18. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration"), run the game then reenable these options. It should avoid showing the GNOME bar while allowing for window manipulation.
 19. Import [this file](/texts/io_r2.reg) through the registry editor once the bottle is created (you might have to change the installation path or rename the directory).
+20. Do not change from windowed to fullscreen mode on the main menu (it will crash the game)
 
 ## Notes
 
