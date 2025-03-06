@@ -64,7 +64,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Imouto Paradise! 3](https://vndb.org/r63781)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15 and note 3                     |
 | [eden* They were only two, on the planet.](https://vndb.org/r35710)             | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | [Baldr Force](https://vndb.org/r59591)                                          | ⚠️    | [lavfilters-j-bfse](/texts/lavfilters-j-bfse.yml)       | Wine 8.15 | Tweak 1, 3, 13, 16 and note 2                     |
-| [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    |                                                         | Caffe 7.7 |                                                   |
+| [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    | [vcredist-higurashi](/texts/vcredist-higurashi.yml)     | Caffe 7.7 | Tweak 1                                           |
 | [Dies irae ~Acta est Fabula~](https://vndb.org/r50485)                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
 | [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 15                                       |
@@ -77,6 +77,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
 | [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
 | [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla](/texts/vanilla-air.yml)                       | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
+| [I/O](https://vndb.org/r22481)                                                  | ⚠️    | [lavfilters-lite-j](/texts/lavfilters-lite-j.yml)       | Caffe 7.7 | Tweak 1, 17, workaround and note 1              |
 
 ## Tweaks
 
@@ -104,14 +105,18 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 22. Install GPU-related dependencies for your operating system to fix some crashes or performance issues.
 {{< tabs >}}
 {{% tab title="Nvidia" %}}
-```
+
+```bash
 sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader cuda opencl-nvidia lib32-opencl-nvidia
 ```
+
 {{% /tab %}}
 {{% tab title="AMD" %}}
-```
+
+```bash
 sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 ```
+
 {{% /tab %}}
 {{< /tabs >}}
 23. Add `WINEDEBUG=+wgl %command% &> wine.log` as a launch command in your executable shortcut settings (it will create a log file at the executable location)
@@ -139,6 +144,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 16. Backup your saves regularly.
 17. Edit "GAMEEXE.INI" and remove `#KOEREPLAYICON.NAME = "koeicon"` if you're using version 1.2 of the patch to avoid getting an error at the start.
 18. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration"), run the game then reenable these options. It should avoid showing the GNOME bar while allowing for window manipulation.
+19. Import [this file](/texts/io_r2.reg) through the registry editor once the bottle is created (you might have to change the installation path or rename the directory).
 
 ## Notes
 
@@ -183,7 +189,9 @@ If you don't know which Wine/Proton version might be the best for a particular g
 * Wine 9.14
 * Wine 9.18
 * Wine 10.0 (stable)
+* Wine-GE-Proton 7-43
 * Wine-GE-Proton 8-5
+* Wine-GE-Proton 8-13
 
 ## Suggested dependencies
 
