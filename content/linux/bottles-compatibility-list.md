@@ -76,8 +76,8 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Kana ~Imouto~](https://vndb.org/r34990)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
 | [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
-| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla](/texts/vanilla-air.yml)                       | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
-| [I/O](https://vndb.org/r22481)                                                  | ⚠️    | [lavfilters-lite-j](/texts/lavfilters-lite-j.yml)       | Caffe 7.7 | Tweak 1, 17, workaround and note 1              |
+| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                       | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18      |
+| [I/O](https://vndb.org/r22481)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                           | Wine 10.0 | Tweak 1, 17, 28 and workaround 19         |
 
 ## Tweaks
 
@@ -88,7 +88,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 5. Enable "Virtual Desktop" (under "Display" and "Advanced Display Settings") and configure it
 6. Change the prefix Windows version to "Windows XP", run `wmfdist11.exe` and change it back to "Windows 10" or install `wmp11` with this [special codec script](/linux/special-codecs)
 7. Enable DXVK in the executable shortcut settings
-8. Install `quartz2` with the special codec script
+8. Install `quartz2` with the special codec script (use a version [before this one](https://github.com/b-fission/vn_winestuff/commit/c4dae356155394afd4b731a6f53e60f625126fdb))
 9. Add `taskset -c 0 %command%` as a launch command to only use the first core of your CPU
 10. Add `LIBGL_ALWAYS_SOFTWARE=1` and/or `__GLX_VENDOR_LIBRARY_NAME=mesa` (Nvidia GPUs only) as environment variable(s)
 11. Check "DirectSound enabled" in the game top menu and select "DirectSoundWave" in the "Music Setup Menu"
@@ -124,6 +124,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 25. Install `mciqtz32` and `quartz2` with the special codec script
 26. Install `xact` through Bottles or Winetricks
 27. Copy `ms-pgothic.ttf` from the patch directory to `Windows/Fonts`
+28. Install `quartz2` (`amstream`, `devenum` included) with the special codec script
 
 ## Workarounds
 

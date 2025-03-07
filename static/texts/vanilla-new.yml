@@ -11,7 +11,7 @@ Installed_Dependencies: {}
 Language: sys
 LatencyFleX: latencyflex-v0.1.1
 NVAPI: dxvk-nvapi-v0.6.1
-Name: vanilla-air
+Name: vanilla-new
 Parameters:
     custom_dpi: 96
     decorated: true
@@ -57,7 +57,7 @@ Parameters:
     vkd3d: false
     vmtouch: false
     vmtouch_cache_cwd: false
-Path: vanilla-air
+Path: vanilla-new
 Runner: sys-wine-10.0
 RunnerPath: ''
 Sandbox:
