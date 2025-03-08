@@ -7,7 +7,7 @@ draft = false
 A brief overview **on what works** for a visual novel. Tested with Bottles following [its guide](/linux/bottles).
 
 * ✅: Verified to work
-* ⚠️: with some issues
+* ⚠️: Work with some issues
 * ❓: Unknown
 * ❌: Broken
 * N/A: Not applicable
@@ -44,14 +44,14 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | Ever17                                                                          | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3                                        |
 | [DISCIPLINE -The record of a Crusade-](https://vndb.org/r96)                    | ⚠️    | [directmusic](/texts/directmusic.yml)                   | Caffe 7.7 | Tweak 3, 11, 12 and workaround 3                  |
 | [Bible Black -La noche de walpurgis-](https://vndb.org/r183)                    | ⚠️    | [directmusic](/texts/directmusic.yml)                   | Caffe 7.7 | Tweak 3, 11, 12 and workaround 3                  |
-| [Cartagra ~Tsuki Kurui no Yamai~](https://vndb.org/r1518)                       | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
+| [Cartagra \~Tsuki Kurui no Yamai\~](https://vndb.org/r1518)                     | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 |                                                   |
 | Sengoku Rance                                                                   | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3 and note 1                                |
 | [Rewrite](https://vndb.org/r46419)                                              | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1 and note 1                                |
 | [Saya no Uta](https://vndb.org/r26763)                                          | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 |                                                   |
 | [Saya no Uta](https://vndb.org/r65398)                                          | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 26                                          |
 | [Higanbana no Saku Yoru ni - Dai Ichi Ya](https://vndb.org/r15597)              | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | [Higanbana no Saku Yoru ni - Dai Ni Ya](https://vndb.org/r21291)                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
-| [Tenioha! ~Onna no Ko Datte Honto wa Ecchi da yo?~](https://vndb.org/r54685)    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
+| [Tenioha! \~Onna no Ko Datte Honto wa Ecchi da yo?\~](https://vndb.org/r54685)  | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5                                           |
 | [BUNNYBLACK](https://vndb.org/r38810)                                           | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | [Sono Hanabira ni Kuchizuke o](https://vndb.org/r1844)                          | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
 | [Sono Hanabira ni Kuchizuke o: Watashi no Ouji-sama](https://vndb.org/r11737)   | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3 and workaround 5                       |
@@ -63,19 +63,19 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Imouto Paradise! 2](https://vndb.org/r45596)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
 | [Imouto Paradise! 3](https://vndb.org/r63781)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15 and note 3                     |
 | [eden* They were only two, on the planet.](https://vndb.org/r35710)             | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
-| [Baldr Force](https://vndb.org/r59591)                                          | ⚠️    | [lavfilters-quartz-p](/texts/lavfilters-quartz-p.yml)   | Wine 10.0 | Tweak 1, 3, 13, 16, 17, 28, 29 and note 2         |
+| [Baldr Force](https://vndb.org/r59591)                                          | ⚠️    | [lavfilters-quartz-p](/texts/lavfilters-quartz-p.yml)   | Wine 10.0 | Tweak 1, 3, 13, 16, 17, 25, 28 and note 2         |
 | [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    | [vcredist-higurashi](/texts/vcredist-higurashi.yml)     | Caffe 7.7 | Tweak 1                                           |
-| [Dies irae ~Acta est Fabula~](https://vndb.org/r50485)                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
+| [Dies irae \~Acta est Fabula\~](https://vndb.org/r50485)                        | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
 | [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-lite-j](/texts/lavfilters-lite-j.yml)       | Caffe 7.7 | Tweak 1, 15, 27 and workaround 20                 |
 | [Duel Savior](https://vndb.org/r23026)                                          | ✅    | [lavfilters-quartz-j](/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
 | [Cosmos no Sora ni](https://vndb.org/r116459)                                   | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
 | [Kanon](https://vndb.org/r86553)                                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
 | [Maitetsu](https://vndb.org/r45598)                                             | ✅    | [lavfilters](/texts/lavfilters.yml)                     | Caffe 7.7 | Tweak 1                                           |
-| [Kana ~Imouto~](https://vndb.org/r37526)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
-| [Kana ~Imouto~](https://vndb.org/r34990)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
+| [Kana \~Imouto\~](https://vndb.org/r37526)                                      | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
+| [Kana \~Imouto\~](https://vndb.org/r34990)                                      | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
-| [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
+| [ONE \~Kagayaku Kisetsu e\~](https://vndb.org/r133)                             | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
 | [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                   | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
 | [I/O](https://vndb.org/r22481)                                                  | ✅    | [quartz-lite-j](/texts/quartz-lite-j.yml)               | Wine 10.0 | Tweak 1, 17, 28 and workaround 19                 |
 
@@ -90,16 +90,49 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 7. Enable DXVK in the executable shortcut settings
 8. Install `quartz` through Bottles or Winetricks
 9. Add `taskset -c 0 %command%` as a launch command to only use the first core of your CPU
-10. Add `LIBGL_ALWAYS_SOFTWARE=1` and/or `__GLX_VENDOR_LIBRARY_NAME=mesa` (Nvidia GPUs only) as environment variable(s)
+10. Add these environment variables:
+{{< tabs >}}
+{{% tab title="Nvidia" %}}
+
+```bash
+LIBGL_ALWAYS_SOFTWARE=1
+__GLX_VENDOR_LIBRARY_NAME=mesa
+```
+
+{{% /tab %}}
+{{% tab title="AMD" %}}
+
+```bash
+LIBGL_ALWAYS_SOFTWARE=1
+```
+
+{{% /tab %}}
+{{< /tabs >}}
 11. Check "DirectSound enabled" in the game top menu and select "DirectSoundWave" in the "Music Setup Menu"
-12. For MIDI support, install "Timidity++", a sound font and add `timidity -iA -B2,8 -Os -EFreverb=0 & %command%; pkill -f timidity` or `timidity -iA -B2,8 -EFreverb=0 & %command%; pkill -f timidity` as a launch command in your executable shortcut settings. Then select "Music from MIDI source" option in the game menu bar
+12. For MIDI support, install "Timidity++", a sound font and add `timidity -iA -B2,8 -EFreverb=0 & %command%; pkill -f timidity` as a launch command in your executable shortcut settings. Then select "Music from MIDI source" option in the game menu bar
 13. Change in-game graphics settings
 14. Install `wmp10`
 15. Change initial start-up settings
 16. Install `amstream`, `devenum` and `quartz` through Bottles or Winetricks
 17. Configure Japanese locale [system wide](/linux/wineprefixes) or for [Flatpak](/linux/wineprefixes) then add `LC_ALL=ja_JP.UTF-8` and `TZ=Asia/Tokyo` as environment variables
 18. Add `PULSE_LATENCY_MSEC=60` as an environment variable to fix audio crackling
-19. Install Mangohud and add these commands/environment variables as a launch command in your executable shortcut settings if a game runs at a really high framerate: `MANGOHUD=1 MANGOHUD_CONFIG=no_display,fps_limit=60 DXVK_HUD=1` or `MANGOHUD_CONFIG=no_display,fps_limit=30,vsync=3,gl_vsync=1 mangohud --dlsym %command%`
+19. Install Mangohud and add this line as a launch command in your executable shortcut settings if a game runs at a really high framerate:
+{{< tabs >}}
+{{% tab title="Vulkan" %}}
+
+```bash
+MANGOHUD=1 MANGOHUD_CONFIG=no_display,fps_limit=60 DXVK_HUD=1 %command%
+```
+
+{{% /tab %}}
+{{% tab title="OpenGL" %}}
+
+```bash
+MANGOHUD_CONFIG=no_display,fps_limit=30,vsync=3,gl_vsync=1 mangohud --dlsym %command%
+```
+
+{{% /tab %}}
+{{< /tabs >}}
 20. Import [this registry file](/texts/wine_breeze_theme.reg) using the registry editor (under "Tools", in your bottle settings) to change the Windows theme to a more modern one (runners usually come with a similar theme by default)
 21. Change runner/DXVK version
 22. Install GPU-related dependencies for your operating system to fix some crashes or performance issues.
@@ -121,10 +154,10 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 {{< /tabs >}}
 23. Add `WINEDEBUG=+wgl %command% &> wine.log` as a launch command in your executable shortcut settings (it will create a log file at the executable location)
 24. Install `quartz` through Bottles or Winetricks
+25. Override `wined3d.dll` to "Native, Builtin"
 26. Install `xact` through Bottles or Winetricks
 27. Copy `ms-pgothic.ttf` from the patch directory to `Windows/Fonts`
 28. Disable `winegstreamer.dll`, `ir50_32.dll` and `wmvcore.dll`
-29. Override `wined3d.dll` to "Native, Builtin"
 
 ## Workarounds
 
@@ -132,7 +165,16 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 2. Back up the content of the `SAVEDATA` directory, delete its content, run the game and restore the files once the main menu appear to avoid a black screen when starting the game
 3. When the screen turns black after accessing the game top menu, refresh the screen by hovering in-game menu items
 4. If you want to use DXVK, create a bottle using the "Gaming" preset (Wine 5.5), immediately change the Wine version to 8.21 after its creation and install `lavfilters741` and `quartz` dependencies
-5. Run the game by changing the desktop resolution during gameplay only: `nvidia-settings --assign=CurrentMetaMode="800x600" && bottles-cli run -p game -b 'BOTTLE' && nvidia-settings --assign=CurrentMetaMode="1920x1080"` (Nvidia GPUs on Xorg only)
+5. Run the game by changing the desktop resolution during gameplay only:
+{{< tabs >}}
+{{% tab title="Nvidia (Xorg)" %}}
+
+```bash
+nvidia-settings --assign=CurrentMetaMode="800x600" && bottles-cli run -p game -b 'example' && nvidia-settings --assign=CurrentMetaMode="1920x1080"
+```
+
+{{% /tab %}}
+{{< /tabs >}}
 6. On GNOME, toggle fullscreen mode with a keyboard shortcut (you have to configure it in the GNOME setting) if the game doesn't start in fullscreen
 7. Extract audio files from the audio CD, rename and move them into the game directory
 8. Use a 32-bit prefix
@@ -153,9 +195,8 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 ## Notes
 
 1. Movies don't play
-2. Game starts in windowed mode and can crash while going into fullscreen mode or switching windows (restarting the game trying again should work)
+2. Game starts in windowed mode and can crash while going into fullscreen mode or switching windows (restarting the game and trying again should work)
 3. No sound during opening playback
-4. Use the Windows version of patch with Wine
 
 ## Game-specific information
 
@@ -167,45 +208,45 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 
 If you don't know which Wine/Proton version might be the best for a particular game, try these ones:
 
-* Caffe 7.7
-* GE-Proton 8-6
-* GE-Proton 7-55
-* GE-Proton 9-5
-* GE-Proton 9-7
-* GE-Proton 9-9
-* GE-Proton 9-10
-* GE-Proton 9-13
-* Kron4ek Wine 8.21
-* Kron4ek Wine 8.15
-* Lutris Wine 6.14-4
-* Lutris Wine 7.2
-* Proton 5.13-6
-* UMU-Proton 9.0-2
-* Wine 5.5
-* Wine 5.10
-* Wine 6.3
-* Wine 6.0.1
-* Wine 6.21
-* Wine 7.1-1
-* Wine 7.2-1
-* Wine 5.0
-* Wine 6.0.1
-* Wine 9.14
-* Wine 9.18
-* Wine 10.0 (stable)
-* Wine-GE-Proton 7-43
-* Wine-GE-Proton 8-5
-* Wine-GE-Proton 8-13
+* [Caffe 7.7](https://github.com/bottlesdevs/wine/releases/tag/caffe-7.7)
+* [GE-Proton7-55](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-55)
+* [GE-Proton8-6](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton8-6)
+* [GE-Proton9-5](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-5)
+* [GE-Proton9-7](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-7)
+* [GE-Proton9-9](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-9)
+* [GE-Proton9-10](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-10)
+* [GE-Proton9-13](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-13)
+* [Kron4ek Wine 8.15](https://github.com/Kron4ek/Wine-Builds/releases/tag/8.15)
+* [Kron4ek Wine 8.21](https://github.com/Kron4ek/Wine-Builds/releases/tag/8.21)
+* [Kron4ek Wine 10.0](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.0)
+* [Lutris Wine 6.14-4](https://github.com/lutris/wine/releases/tag/lutris-6.14-4)
+* [Lutris Wine 7.2](https://github.com/lutris/wine/releases/tag/lutris-wine-7.2)
+* [Proton 5.13-6](https://github.com/ValveSoftware/Proton/releases/tag/proton-5.13-6)
+* [UMU-Proton 9.0-2](https://github.com/Open-Wine-Components/umu-proton/releases/tag/UMU-Proton-9.0-2)
+* [Wine 5.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.0)
+* [Wine 5.5](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.5)
+* [Wine 5.10](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.10)
+* [Wine 6.0.1](https://gitlab.winehq.org/wine/wine/-/releases/wine-6.0.1)
+* [Wine 6.3](https://gitlab.winehq.org/wine/wine/-/releases/wine-6.3)
+* [Wine 6.21](https://gitlab.winehq.org/wine/wine/-/releases/wine-6.21)
+* [Wine 7.1](https://gitlab.winehq.org/wine/wine/-/releases/wine-7.1)
+* [Wine 7.2](https://gitlab.winehq.org/wine/wine/-/releases/wine-7.2)
+* [Wine 9.14](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.14)
+* [Wine 9.18](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.18)
+* [Wine 10.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0)
+* [Wine-GE-Proton7-43](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton7-43)
+* [Wine-GE-Proton8-5](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-5)
+* [Wine-GE-Proton8-13](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-13)
 
 ## Suggested dependencies
 
 If you don't know which dependencies might be needed for a particular game, try these ones:
 
-* d3dx9
-* dirac
-* dotnet35
-* dotnet40
-* ffdshow
-* lavfilters741
-* vcredist2005
-* vcredist2008
+* [d3dx9](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/d3dx9.yml)
+* [dirac](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/dirac.yml)
+* [dotnet35](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/dotnet35.yml)
+* [dotnet40](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/dotnet40.yml)
+* [ffdshow](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/ffdshow.yml)
+* [lavfilters741](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/lavfilters741.yml)
+* [vcredist2005](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/vcredist2005.yml)
+* [vcredist2008](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/vcredist2008.yml)
