@@ -26,7 +26,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [World End Economica Episode 3](https://vndb.org/r55946)                        | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | [Fate/Stay Night [Realta Nua]](https://vndb.org/r34896)                         | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4, 5                                     |
 | [Coμ](https://vndb.org/r24672)                                                  | ✅    | [lavfilters-j-32](/texts/lavfilters-j-32.yml)           | Caffe 7.7 | Tweak 1, 4, 5                                     |
-| [Hanachirasu](https://vndb.org/r15330)                                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 5, 24                                       |
+| [Hanachirasu](https://vndb.org/r15330)                                          | ✅    | [lavfilters-quartz-l](/texts/lavfilters-quartz-l.yml)   | Caffe 7.7 | Tweak 5, 24 and workaround 21                     |
 | [Mahoutsukai no Yoru](https://vndb.org/r43395)                                  | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 4                                        |
 | ef - a fairy tale of the two                                                    | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
 | [Baldr Sky](https://vndb.org/r46946)                                            | ✅    | [lavfilters-micro-gdi](/texts/lavfilters-micro-gdi.yml) | Wine 5.5  | Tweak 2 or workaround 4                           |
@@ -63,7 +63,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Imouto Paradise! 2](https://vndb.org/r45596)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15                                |
 | [Imouto Paradise! 3](https://vndb.org/r63781)                                   | ⚠️    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1, 3, 10, 15 and note 3                     |
 | [eden* They were only two, on the planet.](https://vndb.org/r35710)             | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3                                           |
-| [Baldr Force](https://vndb.org/r59591)                                          | ⚠️    | [lavfilters-j-bfse](/texts/lavfilters-j-bfse.yml)       | Wine 8.15 | Tweak 1, 3, 13, 16 and note 2                     |
+| [Baldr Force](https://vndb.org/r59591)                                          | ⚠️    | [lavfilters-quartz-p](/texts/lavfilters-quartz-p.yml)   | Wine 10.0 | Tweak 1, 3, 13, 16, 17, 28, 29 and note 2         |
 | [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    | [vcredist-higurashi](/texts/vcredist-higurashi.yml)     | Caffe 7.7 | Tweak 1                                           |
 | [Dies irae ~Acta est Fabula~](https://vndb.org/r50485)                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
@@ -77,7 +77,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
 | [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
 | [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                   | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
-| [I/O](https://vndb.org/r22481)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                   | Wine 10.0 | Tweak 1, 17, 28 and workaround 19                 |
+| [I/O](https://vndb.org/r22481)                                                  | ✅    | [quartz-lite-j](/texts/quartz-lite-j.yml)               | Wine 10.0 | Tweak 1, 17, 28 and workaround 19                 |
 
 ## Tweaks
 
@@ -85,10 +85,10 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 2. Enable "Take Focus" in the bottle display settings if needed
 3. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration")
 4. Change renderer to "GDI" in your bottle settings (under "Display" and "Advanced Display Settings") to avoid black screen when switching to fullscreen mode
-5. Enable "Virtual Desktop" (under "Display" and "Advanced Display Settings") and configure it
-6. Change the prefix Windows version to "Windows XP", run `wmfdist11.exe` and change it back to "Windows 10" or install `wmp11` with this [special codec script](/linux/special-codecs)
+5. Enable "Virtual Desktop" if needed (under "Display" and "Advanced Display Settings") and configure it
+6. Change the prefix Windows version to "Windows XP", run `wmfdist11.exe` and change it back to "Windows 10"
 7. Enable DXVK in the executable shortcut settings
-8. Install `quartz2` with the special codec script (use a version [before this one](https://github.com/b-fission/vn_winestuff/commit/c4dae356155394afd4b731a6f53e60f625126fdb))
+8. Install `quartz` through Bottles or Winetricks
 9. Add `taskset -c 0 %command%` as a launch command to only use the first core of your CPU
 10. Add `LIBGL_ALWAYS_SOFTWARE=1` and/or `__GLX_VENDOR_LIBRARY_NAME=mesa` (Nvidia GPUs only) as environment variable(s)
 11. Check "DirectSound enabled" in the game top menu and select "DirectSoundWave" in the "Music Setup Menu"
@@ -96,7 +96,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 13. Change in-game graphics settings
 14. Install `wmp10`
 15. Change initial start-up settings
-16. Install `quartz_dx` with the special codec script
+16. Install `amstream`, `devenum` and `quartz` through Bottles or Winetricks
 17. Configure Japanese locale [system wide](/linux/wineprefixes) or for [Flatpak](/linux/wineprefixes) then add `LC_ALL=ja_JP.UTF-8` and `TZ=Asia/Tokyo` as environment variables
 18. Add `PULSE_LATENCY_MSEC=60` as an environment variable to fix audio crackling
 19. Install Mangohud and add these commands/environment variables as a launch command in your executable shortcut settings if a game runs at a really high framerate: `MANGOHUD=1 MANGOHUD_CONFIG=no_display,fps_limit=60 DXVK_HUD=1` or `MANGOHUD_CONFIG=no_display,fps_limit=30,vsync=3,gl_vsync=1 mangohud --dlsym %command%`
@@ -120,11 +120,11 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 {{% /tab %}}
 {{< /tabs >}}
 23. Add `WINEDEBUG=+wgl %command% &> wine.log` as a launch command in your executable shortcut settings (it will create a log file at the executable location)
-24. Install `quartz` with the special codec script, through Bottles or Winetricks
-25. Install `mciqtz32` and `quartz2` with the special codec script (use a version [before this one](https://github.com/b-fission/vn_winestuff/commit/c4dae356155394afd4b731a6f53e60f625126fdb))
+24. Install `quartz` through Bottles or Winetricks
 26. Install `xact` through Bottles or Winetricks
 27. Copy `ms-pgothic.ttf` from the patch directory to `Windows/Fonts`
-29. Install `quartz_dx` with the special codec script without the `dgVoodoo` part
+28. Disable `winegstreamer.dll`, `ir50_32.dll` and `wmvcore.dll`
+29. Override `wined3d.dll` to "Native, Builtin"
 
 ## Workarounds
 
@@ -148,11 +148,12 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 18. Disable "Allow the window manager to decorate the windows" and "Allow the window manager to control the windows" in "winecfg" ("Legacy Wine Tools > Configuration"), run the game then reenable these options. It should avoid showing the GNOME bar while allowing for window manipulation.
 19. Import [this file](/texts/io_r2.reg) through the registry editor once the bottle is created (you might have to change the installation path or rename the directory).
 20. Do not change from windowed to fullscreen mode on the main menu (it will crash the game)
+21. Change in-game fullscreen mode but don't select the "Hardware interpolation" option as it can crash the game after the opening movie
 
 ## Notes
 
 1. Movies don't play
-2. Game starts in windowed mode
+2. Game starts in windowed mode and can crash while going into fullscreen mode or switching windows (restarting the game trying again should work)
 3. No sound during opening playback
 4. Use the Windows version of patch with Wine
 
