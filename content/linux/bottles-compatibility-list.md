@@ -67,7 +67,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Higurashi no Naku Koro ni Hou - Onikakushi Hen](https://vndb.org/r62475)       | ✅    | [vcredist-higurashi](/texts/vcredist-higurashi.yml)     | Caffe 7.7 | Tweak 1                                           |
 | [Dies irae ~Acta est Fabula~](https://vndb.org/r50485)                          | ✅    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 3, 5                                        |
 | Grisaia no Kajitsu                                                              | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Tweak 8, 14, 15 and note 1                        |
-| [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-lite-j](/texts/lavfilters-lite-j.yml)       | Caffe 7.7 | Tweak 1, 15, 27 and workaround 20                                       |
+| [Shabura Rental](https://vndb.org/r103346)                                      | ✅    | [lavfilters-lite-j](/texts/lavfilters-lite-j.yml)       | Caffe 7.7 | Tweak 1, 15, 27 and workaround 20                 |
 | [Duel Savior](https://vndb.org/r23026)                                          | ✅    | [lavfilters-quartz-j](/texts/lavfilters-quartz-j.yml)   | Wine 5.5  | Tweak 1                                           |
 | [Cosmos no Sora ni](https://vndb.org/r116459)                                   | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 3, 17 and workaround 7                   |
 | [Kanon](https://vndb.org/r86553)                                                | ✅    | [lavfilters-j](/texts/lavfilters-j.yml)                 | Caffe 7.7 | Tweak 1                                           |
@@ -76,8 +76,8 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Kana ~Imouto~](https://vndb.org/r34990)                                        | ⚠️    | [lavfilters-xlite](/texts/lavfilters-xlite.yml)         | Caffe 7.7 | Tweak 3                                           |
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
 | [ONE ~Kagayaku Kisetsu e~](https://vndb.org/r133)                               | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
-| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                       | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18      |
-| [I/O](https://vndb.org/r22481)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                           | Wine 10.0 | Tweak 1, 17, 28 and workaround 19         |
+| [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                   | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
+| [I/O](https://vndb.org/r22481)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                   | Wine 10.0 | Tweak 1, 17, 28 and workaround 19                 |
 
 ## Tweaks
 
@@ -121,10 +121,10 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 {{< /tabs >}}
 23. Add `WINEDEBUG=+wgl %command% &> wine.log` as a launch command in your executable shortcut settings (it will create a log file at the executable location)
 24. Install `quartz` with the special codec script, through Bottles or Winetricks
-25. Install `mciqtz32` and `quartz2` with the special codec script
+25. Install `mciqtz32` and `quartz2` with the special codec script (use a version [before this one](https://github.com/b-fission/vn_winestuff/commit/c4dae356155394afd4b731a6f53e60f625126fdb))
 26. Install `xact` through Bottles or Winetricks
 27. Copy `ms-pgothic.ttf` from the patch directory to `Windows/Fonts`
-28. Install `quartz2` (`amstream`, `devenum` included) with the special codec script
+29. Install `quartz_dx` with the special codec script without the `dgVoodoo` part
 
 ## Workarounds
 
