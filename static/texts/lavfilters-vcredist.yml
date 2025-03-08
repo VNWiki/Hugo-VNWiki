@@ -23,7 +23,7 @@ Installed_Dependencies:
 Language: sys
 LatencyFleX: latencyflex-v0.1.1
 NVAPI: dxvk-nvapi-v0.6.1
-Name: vcredist-higurashi
+Name: lavfilters-vcredist
 Parameters:
     custom_dpi: 96
     decorated: true
@@ -68,7 +68,7 @@ Parameters:
     vkd3d: false
     vmtouch: false
     vmtouch_cache_cwd: false
-Path: vcredist-higurashi
+Path: lavfilters-vcredist
 Runner: caffe-7.7
 RunnerPath: ''
 Sandbox:
