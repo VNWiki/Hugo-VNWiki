@@ -20,7 +20,7 @@ Installed_Dependencies:
 Language: sys
 LatencyFleX: latencyflex-v0.1.1
 NVAPI: dxvk-nvapi-v0.6.1
-Name: lavfilters-tomoyo
+Name: lavfilters-j-t
 Parameters:
     custom_dpi: 96
     decorated: true
@@ -66,7 +66,7 @@ Parameters:
     vkd3d: false
     vmtouch: false
     vmtouch_cache_cwd: false
-Path: lavfilters-tomoyo
+Path: lavfilters-j-t
 Runner: kron4ek-wine-8.15-amd64
 RunnerPath: ''
 Sandbox:
