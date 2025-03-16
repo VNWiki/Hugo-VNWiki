@@ -77,7 +77,7 @@ A brief overview **on what works** for a visual novel. Tested with Bottles follo
 | [Rance VI - Zeth Houkai -](https://vndb.org/r47520)                             | ⚠️    | [lavfilters-lite](/texts/lavfilters-lite.yml)           | Caffe 7.7 | Workaround 13 and note 1                          |
 | [ONE \~Kagayaku Kisetsu e\~](https://vndb.org/r133)                             | ✅    | [vanilla](/texts/vanilla.yml)                           | Caffe 7.7 | Tweak 1, 17                                       |
 | [AIR](https://vndb.org/r28238)                                                  | ✅    | [vanilla-new](/texts/vanilla-new.yml)                   | Wine 10.0 | Tweak 1, 17 and workaround 15, 16, 17, 18         |
-| [I/O](https://vndb.org/r22481)                                                  | ✅    | [quartz-lite-j](/texts/quartz-lite-j.yml)               | Wine 10.0 | Tweak 1, 17, 28 and workaround 19                 |
+| [I/O](https://vndb.org/r22481)                                                  | ✅    | [quartz-lite-j](/texts/quartz-lite-j.yml)               | Wine 10.0 | Tweak 1, 17, 28 or 29 and workaround 19             |
 
 ## Tweaks
 
@@ -158,6 +158,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan
 26. Install `xact` through Bottles or Winetricks
 27. Copy `ms-pgothic.ttf` from the patch directory to `Windows/Fonts`
 28. Disable `winegstreamer.dll`, `ir50_32.dll` and `wmvcore.dll`
+29. Install `lib32-gst-plugins-base`, `lib32-gstreamer` and `gst-plugin-good` through your package manager.
 
 ## Workarounds
 
@@ -250,3 +251,77 @@ If you don't know which dependencies might be needed for a particular game, try 
 * [lavfilters741](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/lavfilters741.yml)
 * [vcredist2005](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/vcredist2005.yml)
 * [vcredist2008](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/vcredist2008.yml)
+
+## Suggested packages
+
+Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/InstallingDrivers.md), [Wine dependencies](https://github.com/lutris/docs/blob/master/WineDependencies.md#archendeavourosmanjaroother-arch-derivatives) and [GloriousEggroll's Blog](https://www.gloriouseggroll.tv/how-to-get-out-of-wine-dependency-hell/).
+
+* alsa-lib
+* alsa-plugins
+* alsa-utils
+* cups
+* dosbox
+* ffmpeg
+* giflib
+* gnutls
+* gst-devtools-libs
+* gst-editing-services
+* gst-libavgst-plugins-ugly
+* gst-plugin-good
+* gst-plugin-gtk
+* gst-plugin-pipewire
+* gst-plugins-bad
+* gst-plugins-bad-libs
+* gst-plugins-base
+* gst-plugins-base-libs
+* gst-plugins-good
+* gst-python
+* gstreamer
+* gtk3
+* lib32-alsa-lib
+* lib32-alsa-plugins
+* lib32-giflib
+* lib32-gnutls
+* lib32-gst-plugins-base
+* lib32-gst-plugins-base-libs
+* lib32-gst-plugins-good
+* lib32-gstreamer
+* lib32-gtk3
+* lib32-libgcrypt
+* lib32-libgpg-error
+* lib32-libjpeg-turbo
+* lib32-libldap
+* lib32-libpng
+* lib32-libpulse
+* lib32-libva
+* lib32-libxcomposite
+* lib32-libxinerama
+* lib32-libxslt
+* lib32-mpg123
+* lib32-ncurses
+* lib32-openal
+* lib32-opencl-icd-loader
+* lib32-sqlite
+* lib32-v4l-utils
+* lib32-vulkan-icd-loader
+* libgcrypt
+* libgpg-error
+* libjpeg-turbo
+* libldap
+* libpng
+* libpulse
+* libva
+* libxcomposite
+* libxinerama
+* libxslt
+* mpg123
+* ncurses
+* openal
+* opencl-icd-loader
+* pulseaudio
+* samba
+* sqlite
+* v4l-utils
+* vulkan-icd-loader
+* wine-staging
+* winetricks
