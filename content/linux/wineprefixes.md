@@ -85,7 +85,7 @@ Make sure to run both [Japanese Locale](/all-platforms/jp-locale) and Fonts in t
 > The prefix for **proton_ge** does not need to install any extra components.
 
 * **vanilla** (64bit): Needs Gstreamer libraries.
-    - System Lutris: Make sure you have this libraries installed in your system: `gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base gst plugins-bad gst plugins-bad-libs gst-plugin-pipewire gst-libav lib32-gstreamer lib32-gst-plugins-base-libs`
+    - System Lutris: Make sure you have this libraries installed in your system: `gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base  gst-plugins-bad gst-plugins-bad-libs gst-plugin-pipewire gst-libav lib32-gstreamer lib32-gst-plugins-base-libs`
     - Flatpak Lutris or Steam Deck: Don't need to install anything since they come bundled in.
 * **wmp11quartz** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz2`
 * **wmp11** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11`
