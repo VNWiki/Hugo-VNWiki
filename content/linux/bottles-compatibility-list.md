@@ -7,7 +7,7 @@ draft = false
 A brief overview **on what works** for a visual novel. Tested with Bottles following [its guide](/linux/bottles).
 
 * ✅: Verified to work
-* ⚠️: Work with some issues
+* ⚠️: Works with some issues
 * ❓: Unknown
 * ❌: Broken
 * N/A: Not applicable
