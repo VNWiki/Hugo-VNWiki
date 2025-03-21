@@ -80,9 +80,13 @@ Make sure to run both [Japanese Locale](/all-platforms/jp-locale) and Fonts in t
 * Copy the command (based on the name of the prefix), paste it into each Terminal using **CTRL + SHIFT + V**
 * Hit **Enter** to input the command and wait for them to finish.
 
-> [!info] Info
-> The prefixes for **vanilla** and **proton_ge** do not need to install any extra components.
 
+> [!info] Info
+> The prefix for **proton_ge** does not need to install any extra components.
+
+* **vanilla** (64bit): Needs Gstreamer libraries.
+    - System Lutris: Make sure you have this libraries installed in your system: `gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base  gst-plugins-bad gst-plugins-bad-libs gst-plugin-pipewire gst-libav lib32-gstreamer lib32-gst-plugins-base-libs`
+    - Flatpak Lutris or Steam Deck: Don't need to install anything since they come bundled in.
 * **wmp11quartz** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz2`
 * **wmp11** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11`
 * **wmp10** (32bit): `winetricks -q --force wmp10` (wmp10 install is currently borked, can't be used)
