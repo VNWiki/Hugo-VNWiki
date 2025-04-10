@@ -61,7 +61,7 @@ Make sure to run both [Japanese Locale](/all-platforms/jp-locale) and Fonts in t
     In Lutris, visit any game’s config and enter these settings
 
     Game Options:
-    * **Wine prefix**: **path_to_your_wineprefix_folder**
+    * **Wine prefix**: **path_to_your_wineprefix_folder** (The location of the folder we made in step 1)
     * **Prefix architecture**: **64bit** (**32bit** for wmp10 & wmp10quartz)
 
     Runner Options:
@@ -70,45 +70,40 @@ Make sure to run both [Japanese Locale](/all-platforms/jp-locale) and Fonts in t
     * **Others**: **Lutris 7.2** (default) (Do not pick Lutris 7.2.2 It has issues with video playback). Disable DXVK for this case.
     
 
-> [!info] Info
-> The **path** is the location of the folders we’ve just made.
-
-3. Go to [Special Codecs]({{< ref "special-codecs" >}}) and download it in some route like ~/Documents. Make sure to change the path in following commands to where you downloaded it.
-
-4. For each wineprefix folder, you’ll want these components depending on their name.
+3. For each wineprefix folder, you’ll want these components depending on their name.
 * Click the 🍷 wine bottle, and click **Bash Terminal**.
 * Copy the command (based on the name of the prefix), paste it into each Terminal using **CTRL + SHIFT + V**
 * Hit **Enter** to input the command and wait for them to finish.
 
 
-> [!info] Info
-> The prefix for **proton_ge** does not need to install any extra components.
 
-* **vanilla** (64bit): Needs Gstreamer libraries.
+
+* **vanilla** (64bit): Needs Gstreamer libraries for video playback.
     - System Lutris: Make sure you have this libraries installed in your system: `gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base  gst-plugins-bad gst-plugins-bad-libs gst-plugin-pipewire gst-libav lib32-gstreamer lib32-gst-plugins-base-libs`
     - Flatpak Lutris or Steam Deck: Don't need to install anything since they come bundled in.
+* **proton_ge** (64bit): Doesn't need any extra components, should work out of the box. 
+    - If using it outside of Steam, like in lutris you need to install umu-launcher.
+    - Flatpak Lutris does not need umu-launcher, it's bundled in.
+    
+> [!info] Info
+> Go to [Special Codecs]({{< ref "special-codecs" >}}) and download it in some route like ~/Documents. 
+> 
+> Make sure to change the path in following commands to where you downloaded it.
+
 * **wmp11quartz** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz2`
 * **wmp11** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11`
 * **wmp10** (32bit): `winetricks -q --force wmp10` (wmp10 install is currently borked, can't be used)
 * **wmp10quartz** (32bit): `winetricks -q --force wmp10 && sh ~/Documents/vn_winestuff-main/codec.sh quartz2` (wmp10 install is currently borked, can't be used)
 * **quartz_dx** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz_dx`
-
-    > [!info] Info
-    > wmp11quartz2 should work for most titles, but sometimes you need to use the variants in different titles.
-
 * **lavfilters** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh lavfilters`
 * **xact** (64bit): `winetricks -q --force xact`
 * **mciqtz32** (64bit): `sh ~/Documents/vn_winestuff-main/codec.sh mciqtz32`
-
-    > [!info] Info
-    > liarsoftengine. mciqtz32 is used for VNs in Liarsoft and YU-RIS engine
-
-* **ffdshow** (64bit): `winetricks ffdshow`
+* **ffdshow** (64bit): `winetricks ffdshow` (You must manually enable ALL codecs for **ffdshow** (including MPEG-1/2!) when the pop up occurs at the end of the install.)
 
     > [!warning] Warning
-    > You must manually enable ALL codecs for **ffdshow** (including MPEG-1/2!) when the pop up occurs at the end of the install.
+    > If you change the Runner version you NEED to remake the prefix, all components will be overwritten by the defaults of Wine
 
-5. Next, within each wineprefix folder, install the [Windows Japanese Fonts](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view).\
+4. Next, within each wineprefix folder, install the [Windows Japanese Fonts](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view).\
 To install, place your fonts in **your_wineprefix/drive_c/Windows/Fonts**. This ensures your VNs can load the right font.\
 
     > [!info] Info

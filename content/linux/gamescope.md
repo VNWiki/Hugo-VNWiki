@@ -52,12 +52,10 @@ Check out the [Github page](https://github.com/Plagman/gamescope) for the most u
 
 ## Known Issues
 
-### Wayland FSR
-
-A recent update to add support for explicit sync has broken the ability to use FSR and others in Wayland desktop. \ 
-Has a workaround you can use `--backend sdl` to keep it working with the old backend.
-
-[Source](https://github.com/ValveSoftware/gamescope/issues/1237)
+### Text Hooking
+To texthook a VN you need to launch the texthooker in the same prefix than the VN, this is problematic with gamescope,
+for now a workaround is to launch both the VN and the texthooker with gamescope enabled and in fullscreen.
+If you are using proton or proton-ge it has process isolation so it can't find the VN process, can use [protonhax](https://github.com/Will40/protonhax/) it has Lutris support but it's quite hacky and not recommended unless needed.
 
 ### Video playback
 
