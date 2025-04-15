@@ -28,7 +28,7 @@ draft = false
 
 
 You can also do the DLL override accesing winecfg of the prefix:
-![](https://i.imgur.com/y9MCnt2.png)
+![](https://github.com/b-fission/vn_winestuff/blob/main/custom-fixes/krkr-d2d1/wine_override.png?raw=true)
 
 > [!info] Source code
 > Source code of the .dll [d2d1 wrapper](/dlls/d2d1_mini-v2.zip)
