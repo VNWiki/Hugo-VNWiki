@@ -6,17 +6,18 @@ draft = false
 
 [Textractor](https://github.com/Artikash/Textractor) (a.k.a. NextHooker) is an open-source x86/x64 video game text hooker for Windows 7+ (and Wine) based off of ITHVNR.
 
-## Linux 
-
-Texthooking in Linux through wine is possible, it requires to run the texthooker software in the same wine prefix that the game.
-
-#### Download
+## Download
 
 1. Download the zip version from github: https://github.com/Artikash/Textractor/releases/tag/v5.2.0
 2. Unzip it in some location.
 3. Update the dll from the alpha version for better compatibility: https://github.com/Artikash/Textractor/issues/868#issuecomment-1249146885
+4. Alternatively, you can use Chenx221 fork instead of replacing dlls from alpha version: https://github.com/Chenx221/Textractor/releases It should have most if not all of alpha builds merged already.
 
-#### Lutris
+## Linux 
+
+Texthooking in Linux through wine is possible, it requires to run the texthooker software in the same wine prefix that the game.
+
+### Lutris
 
 1. Once you have your game running in Lutris the simplest way to run it is to right click the Lutris entry and click `Duplicate`
 2. Change the name to identify it better.

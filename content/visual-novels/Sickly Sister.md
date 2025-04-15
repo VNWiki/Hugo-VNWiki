@@ -9,13 +9,13 @@ draft = false
 ### Linux
 
 > [!info] Information
-> This game uses a borked implementation of Direct2D in Wine, need to to use a [d2d1 wrapper](https://cdn.discordapp.com/attachments/1014276025728901197/1359424015994847372/d2d1.dll?ex=67f76dc6&is=67f61c46&hm=497d45b9f170a46c590adb2f514ccca942997985fb2144c8f7c5c7a893b2e122&) made specifically for the game (Thanks to @fission)
+> This game uses a borked implementation of Direct2D in Wine, need to to use a [d2d1 wrapper](https://github.com/b-fission/vn_winestuff/raw/refs/heads/main/custom-fixes/krkr-d2d1/d2d1.dll) made specifically for the game (Thanks to @fission)
 > Tested with [Proton-ge 9.26+](/linux/adding-wine-versions).
 
 
 #### Steps
 
-1. Add the downloaded [d2d1.dll](https://cdn.discordapp.com/attachments/1014276025728901197/1359424015994847372/d2d1.dll?ex=67f76dc6&is=67f61c46&hm=497d45b9f170a46c590adb2f514ccca942997985fb2144c8f7c5c7a893b2e122&) to the game folder, at the same level than the .exe to run the game
+1. Add the downloaded [d2d1 wrapper](https://github.com/b-fission/vn_winestuff/raw/refs/heads/main/custom-fixes/krkr-d2d1/d2d1.dll) to the game folder, at the same level than the .exe to run the game
 
 2. In lutris add a new entry:
 
@@ -28,8 +28,10 @@ draft = false
 
 
 You can also do the DLL override accesing winecfg of the prefix:
-![](https://cdn.discordapp.com/attachments/1014276025728901197/1359330990350401637/d2d1override.png?ex=67f71723&is=67f5c5a3&hm=8ffbf197fdfb58d16fe59335b70fbcb03871e4da495310e8f350ccdee29da563&)
+![](https://i.imgur.com/y9MCnt2.png)
 
+> [!info] Source code
+> Source code of the .dll [d2d1 wrapper](/dlls/d2d1_mini-v2.zip)
 
 ## Links
 
