@@ -23,6 +23,15 @@ Texthooking in Linux through wine is possible, it requires to run the texthooker
 2. Change the name to identify it better.
 3. Open the entry go to `Game Options` in Executable change to the textractor .exe ej: /home/user/Downloads/Textractor/x86/Textractor.exe
 4. Run both the game and textractor, when clicking attach the game should appear normally.
+5. If using clipboard For Firefox [this extension](https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/) still works, can use together with this [texthooker page](https://anacreondjt.gitlab.io/docs/texthooker/). But Manifest V2 extensions in some browsers like Chrome and Edge do no longer work, so using Websocket is recommended.
+
+#### Websocket
+Optional, but recommended:
+1. Install the [websocket extension](https://github.com/kuroahna/textractor_websocket/releases/tag/0.2.0) in Textractor. copy the dll to both x64 and x86 textractor folders respectively.
+2. Open textractor extension menu and drag the .dll file to add it, remove copy to clipboard extension too.
+3. The text will be available in `ws://localhost:6677`. You will need a client to listen to it, this webpage is ready for it https://renji-xd.github.io/texthooker-ui/
+
+Here is the original guide at TheMoeWay for Windows, but the steps are about the same https://learnjapanese.moe/vn/#playing-visual-novels-to-learn-japanese
 
 > [!warning] Architecture
 > The architecture x86 or x64 depends on what the game is running. When you try to attach it will either give an error message or crash if using wrong architecture.  
@@ -39,4 +48,4 @@ Texthooking in Linux through wine is possible, it requires to run the texthooker
 >
 > Need to use Wayland and Wayland backend with gamescope (should be default already)
 >
-> You will also need a recent version of gamescope (tested with 3.16.3) since forwarding clipboard to the host was released [very recently](https://github.com/ValveSoftware/gamescope/pull/1685)
+> For now you will need to use Websocket to transfer the text to other programs, forwarding clipboard to the host was released [very recently](https://github.com/ValveSoftware/gamescope/pull/1685) (tested with 3.16.3), but pasting text into Firefox still crashes gamescope seems like, at least until [this issue is merged and released](https://github.com/ValveSoftware/gamescope/issues/1816).
