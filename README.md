@@ -1,3 +1,7 @@
+# Move to Vitepress
+The Wiki moved to Vitepress for easier editing, please check it out [VNWiki](https://github.com/VNWiki/visual-novel-wiki)
+
+
 # VNWiki
 
 Reimplementation of the Visual Novel Wiki using Hugo, hosted on GitHub Pages.\
